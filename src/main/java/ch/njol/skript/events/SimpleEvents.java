@@ -369,7 +369,7 @@ public class SimpleEvents {
 				.examples("on bow shoot:",
 						"\tif event-item is a bow:",
 						"\t\tif used item is an arrow:",
-						"\t\\ttsend \"You shot 1 of your %(name of used item) ? (type of used item)%<reset> arrows!\" to shooter")
+						"\t\\ttsend \"You shot 1 of your %type of used item%<reset> arrows!\" to shooter")
 				.since("INSERT VERSION");
 		Skript.registerEvent("Sign Change", SimpleEvent.class, SignChangeEvent.class, "sign (chang[e]|edit)[ing]", "[player] (chang[e]|edit)[ing] [a] sign")
 				.description("As signs are placed empty, this event is called when a player is done editing a sign.")
