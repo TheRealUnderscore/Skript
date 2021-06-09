@@ -43,6 +43,7 @@ import org.bukkit.event.entity.EntityPortalEvent;
 import org.bukkit.event.entity.EntityPortalExitEvent;
 import org.bukkit.event.entity.EntityRegainHealthEvent;
 import org.bukkit.event.entity.EntityResurrectEvent;
+import org.bukkit.event.entity.EntityShootBowEvent;
 import org.bukkit.event.entity.EntityTameEvent;
 import org.bukkit.event.entity.EntityToggleGlideEvent;
 import org.bukkit.event.entity.EntityToggleSwimEvent;
@@ -362,6 +363,14 @@ public class SimpleEvents {
 						"\tif projectile is an arrow:",
 						"\t\tsend \"you shot an arrow!\" to shooter")
 				.since("1.0");
+		Skript.registerEvent("Shoot", SimpleEvent.class, EntityShootBowEvent.class, "[entity] bow shoot")
+				.description("Called whenever a <a href='classes.html#projectile'>projectile</a> is shot from a bow. Use the <a href='expressions.html#ExprShooter'>shooter expression</a> to get who shot the projectile.", 
+							 "The bow used to shoot the arrow is the event-item, and the <a href='expressions.html#ExprUsedItem'>used item</a> expression returns the shot arrow.")
+				.examples("on bow shoot:",
+						"\tif event-item is a bow:",
+						"\t\tif used item is an arrow:",
+						"\t\\ttsend \"You shot 1 of your %(name of used item) ? (type of used item)%<reset> arrows!\" to shooter")
+				.since("INSERT VERSION");
 		Skript.registerEvent("Sign Change", SimpleEvent.class, SignChangeEvent.class, "sign (chang[e]|edit)[ing]", "[player] (chang[e]|edit)[ing] [a] sign")
 				.description("As signs are placed empty, this event is called when a player is done editing a sign.")
 				.examples("on sign change:",
