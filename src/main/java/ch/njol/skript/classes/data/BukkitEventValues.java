@@ -64,6 +64,7 @@ import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.event.entity.EntityEvent;
+import org.bukkit.event.entity.EntityShootBowEvent;
 import org.bukkit.event.entity.EntityTameEvent;
 import org.bukkit.event.entity.FireworkExplodeEvent;
 import org.bukkit.event.entity.HorseJumpEvent;
@@ -524,6 +525,15 @@ public final class BukkitEventValues {
 			@Nullable
 			public Projectile get(final ProjectileLaunchEvent e) {
 				return e.getEntity();
+			}
+		}, 0);
+		// EntityShootBowEvent
+		EventValues.registerEventValue(EntityShootBowEvent.class, ItemType.class, new Getter<ItemType, EntityShootBowEvent>() {
+			@Override
+			@Nullable
+			public ItemType get(EntityShootBowEvent e) {
+				ItemStack item = e.getBow();
+				return item == null ? null : new ItemType(item);
 			}
 		}, 0);
 		// EntityTameEvent
