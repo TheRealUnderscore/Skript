@@ -18,16 +18,8 @@
  */
 package ch.njol.skript.expressions;
 
-import org.bukkit.event.Event;
-import org.bukkit.event.entity.EntityShootBowEvent;
-import org.eclipse.jdt.annotation.Nullable;
-
 import ch.njol.skript.Skript;
-import ch.njol.skript.doc.Description;
-import ch.njol.skript.doc.Events;
-import ch.njol.skript.doc.Examples;
-import ch.njol.skript.doc.Name;
-import ch.njol.skript.doc.Since;
+import ch.njol.skript.doc.*;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.ExpressionType;
 import ch.njol.skript.lang.SkriptParser.ParseResult;
@@ -35,17 +27,23 @@ import ch.njol.skript.lang.util.SimpleExpression;
 import ch.njol.skript.log.ErrorQuality;
 import ch.njol.skript.registrations.Classes;
 import ch.njol.util.Kleenean;
+import org.bukkit.event.Event;
+import org.bukkit.event.entity.EntityShootBowEvent;
+import org.bukkit.inventory.ItemStack;
+import org.eclipse.jdt.annotation.Nullable;
 
 /**
  * @author Peter Güttinger
  */
+
+@Name("Used Item")
 @Description("The item used in a <a href='events.html#bow_shoot'>bow shoot event</a>, i.e. when you shoot a spectral arrow, this expression returns the spectral arrow itemstack.")
-@Examples("on bow shoot:",
-    "\tif event-item is a bow:",
-    "\t\tif used item is an arrow:",
-    "\t\\ttsend \"You shot 1 of your %(name of used item) ? (type of used item)%<reset> arrows!\" to shooter")
-@Since("INSERT VERSION");
-@Events({"bow_shoot"})
+@Examples("on bow shoot:\n" +
+    "\tif event-item is a bow:\n" +
+    "\t\tif used item is an arrow:\n" +
+    "\t\t\tsend \"You shot 1 of your %(name of used item) ? (type of used item)%<reset> arrows!\" to shooter")
+@Since("INSERT VERSION")
+@Events({ "bow_shoot" })
 
 public class ExprUsedItem extends SimpleExpression<ItemStack> {
 	static {
@@ -54,7 +52,7 @@ public class ExprUsedItem extends SimpleExpression<ItemStack> {
 	
 	@Override
 	public boolean init(final Expression<?>[] vars, final int matchedPattern, final Kleenean isDelayed, final ParseResult parser) {
-		if (!getParser().isCurrentEvent(EntityBowShootEvent.class)) {
+		if (!getParser().isCurrentEvent(EntityShootBowEvent.class)) {
 			Skript.error("Cannot use 'used item' outside of a bow shoot event", ErrorQuality.SEMANTIC_ERROR);
 			return false;
 		}
@@ -63,18 +61,19 @@ public class ExprUsedItem extends SimpleExpression<ItemStack> {
 	
 	@Override
 	protected ItemStack[] get(final Event e) {
-		return new ItemStack[] {getUsedItem(e)};
+		return new ItemStack[] { getUsedItem(e) };
 	}
 	
 	@Nullable
 	private static ItemStack getUsedItem(final @Nullable Event e) {
 		if (e == null)
 			return null;
-    return e.getConsumable();
+		final EntityShootBowEvent edbee = (EntityShootBowEvent) e;
+		return edbee.getConsumable();
 	}
 	
 	@Override
-	public Class<? extends Entity> getReturnType() {
+	public Class<? extends ItemStack> getReturnType() {
 		return ItemStack.class;
 	}
 	
