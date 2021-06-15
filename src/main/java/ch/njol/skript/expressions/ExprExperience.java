@@ -18,8 +18,11 @@
  */
 package ch.njol.skript.expressions;
 
+import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.block.BlockBreakEvent;
+import org.bukkit.event.entity.EntityDeathEvent;
+import org.bukkit.event.player.PlayerFishEvent;
 import org.eclipse.jdt.annotation.Nullable;
 
 import ch.njol.skript.Skript;
@@ -58,8 +61,8 @@ public class ExprExperience extends SimpleExpression<Experience> {
 	
 	@Override
 	public boolean init(final Expression<?>[] exprs, final int matchedPattern, final Kleenean isDelayed, final ParseResult parseResult) {
-		if (!getParser().isCurrentEvent(ExperienceSpawnEvent.class, BlockBreakEvent.class)) {
-			Skript.error("The experience expression can only be used in experience spawn and block break events");
+		if (!getParser().isCurrentEvent(ExperienceSpawnEvent.class, BlockBreakEvent.class, PlayerFishEvent.class, EntityDeathEvent.class)) {
+			Skript.error("The experience expression can only be used in experience spawn, block break, fishing, and death events");
 			return false;
 		}
 		return true;
@@ -72,6 +75,10 @@ public class ExprExperience extends SimpleExpression<Experience> {
 			return new Experience[] {new Experience(((ExperienceSpawnEvent) e).getSpawnedXP())};
 		else if (e instanceof BlockBreakEvent)
 			return new Experience[] {new Experience(((BlockBreakEvent) e).getExpToDrop())};
+		else if (e instanceof EntityDeathEvent)
+			return new Experience[] {new Experience(((EntityDeathEvent) e).getDroppedExp())};
+		else if (e instanceof PlayerFishEvent)
+			return new Experience[] {new Experience(((PlayerFishEvent) e).getExpToDrop())};
 		else
 			return new Experience[0];
 	}
@@ -100,6 +107,10 @@ public class ExprExperience extends SimpleExpression<Experience> {
 			d = ((ExperienceSpawnEvent) e).getSpawnedXP();
 		else if (e instanceof BlockBreakEvent)
 			d = ((BlockBreakEvent) e).getExpToDrop();
+		else if (e instanceof EntityDeathEvent)
+			d = ((EntityDeathEvent) e).getDroppedExp();
+		else if (e instanceof PlayerFishEvent)
+			d = ((PlayerFishEvent) e).getExpToDrop();
 		else
 			return;
 		
@@ -129,8 +140,12 @@ public class ExprExperience extends SimpleExpression<Experience> {
 		d = Math.max(0, Math.round(d));
 		if (e instanceof ExperienceSpawnEvent)
 			((ExperienceSpawnEvent) e).setSpawnedXP((int) d);
-		else
+		else if (e instanceof BlockBreakEvent)
 			((BlockBreakEvent) e).setExpToDrop((int) d);
+		else if (e instanceof EntityDeathEvent)
+			((EntityDeathEvent) e).setDroppedExp((int) d);
+		else
+			((PlayerFishEvent) e).setExpToDrop((int) d);
 	}
 	
 	@Override
