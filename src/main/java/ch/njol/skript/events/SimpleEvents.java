@@ -266,7 +266,7 @@ public class SimpleEvents {
 		Skript.registerEvent("Fishing", SimpleEvent.class, PlayerFishEvent.class, "[player] fish[ing]")
 				.description("Called when a player fishes something. This is not of much use yet.")
 				.examples("on fish:")
-				.since("1.0");
+				.since("1.0, 2.0 (fishing states)");
 		if (Skript.classExists("org.bukkit.event.player.PlayerItemBreakEvent")) {
 			Skript.registerEvent("Item Break", SimpleEvent.class, PlayerItemBreakEvent.class, "[player] tool break[ing]", "[player] break[ing] (a|the|) tool")
 					.description("Called when a player breaks their tool because its damage reached the maximum value.",
@@ -357,9 +357,9 @@ public class SimpleEvents {
 			.examples("on projectile collide:",
 				"\tteleport shooter of event-projectile to event-entity")
 			.since("2.5");
-		Skript.registerEvent("Shoot", SimpleEvent.class, ProjectileLaunchEvent.class, "[projectile] shoot")
+		Skript.registerEvent("Shoot", SimpleEvent.class, ProjectileLaunchEvent.class, "[projectile] (shoot|pew[ pew])")
 				.description("Called whenever a <a href='classes.html#projectile'>projectile</a> is shot. Use the <a href='expressions.html#ExprShooter'>shooter expression</a> to get who shot the projectile.")
-				.examples("on shoot:",
+				.examples("on pew pew:",
 						"\tif projectile is an arrow:",
 						"\t\tsend \"you shot an arrow!\" to shooter")
 				.since("1.0");

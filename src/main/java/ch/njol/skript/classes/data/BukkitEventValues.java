@@ -93,6 +93,8 @@ import org.bukkit.event.player.PlayerChangedWorldEvent;
 import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.event.player.PlayerEditBookEvent;
 import org.bukkit.event.player.PlayerEvent;
+import org.bukkit.event.player.PlayerFishEvent;
+import org.bukkit.event.player.PlayerFishEvent.State;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerItemBreakEvent;
@@ -536,6 +538,13 @@ public final class BukkitEventValues {
 				return item == null ? null : new ItemType(item);
 			}
 		}, 0);
+		EventValues.registerEventValue(EntityShootBowEvent.class, Projectile.class, new Getter<Projectile, EntityShootBowEvent>() {
+			@Override
+			@Nullable
+			public Projectile get(EntityShootBowEvent e) {
+				return (Projectile) e.getProjectile();
+			}
+		}, 0);
 		// EntityTameEvent
 		EventValues.registerEventValue(EntityTameEvent.class, Entity.class, new Getter<Entity, EntityTameEvent>() {
 			@Override
@@ -656,6 +665,28 @@ public final class BukkitEventValues {
 			@Nullable
 			public ItemType get(final PlayerDropItemEvent e) {
 				return new ItemType(e.getItemDrop().getItemStack());
+			}
+		}, 0);
+		// PlayerFishEvent
+		EventValues.registerEventValue(PlayerFishEvent.class, State.class, new Getter<State, PlayerFishEvent>() {
+			@Override
+			@Nullable
+			public State get(final PlayerFishEvent e) {
+				return e.getState();
+			}
+		}, 0);
+		EventValues.registerEventValue(PlayerFishEvent.class, Projectile.class, new Getter<Projectile, PlayerFishEvent>() {
+			@Override
+			@Nullable
+			public Projectile get(final PlayerFishEvent e) {
+				return (Projectile) e.getHook();
+			}
+		}, 0);
+		EventValues.registerEventValue(PlayerFishEvent.class, Entity.class, new Getter<Entity, PlayerFishEvent>() {
+			@Override
+			@Nullable
+			public Entity get(final PlayerFishEvent e) {
+				return e.getCaught();
 			}
 		}, 0);
 		// PlayerPickupItemEvent

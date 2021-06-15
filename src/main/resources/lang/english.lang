@@ -1,7 +1,7 @@
 # Default English language file
 
 # Which version of Skript this language file was written for
-version: @version@
+version: 2.6-mark_
 
 # -- General --
 and: and
@@ -1664,6 +1664,16 @@ visual effects:
 			name: white ash @-
 			pattern: white ash
 
+# -- Fishing States --
+fishing states:
+    fishing: fishing, fish
+    caught_fish: caught fish, catch fish
+    caught_entity: caught entity, catch entity
+    in_ground: in ground
+    failed_attempt: failed attempt, fail, failed
+    reel_in: reel in, reel
+    bite: bite
+
 # -- Inventory Actions --
 inventory actions:
 	nothing: nothing, do nothing
@@ -1877,6 +1887,7 @@ types:
 	damagecause: damage cause¦s @a
 	teleportcause: teleport cause¦s @a
 	inventoryaction: inventory action¦s @a
+	fishingstate: fishing state¦s @a
 	clicktype: click type¦s @a
 	vector: vector¦s @a
 	inventorytype: inventory type¦s @an

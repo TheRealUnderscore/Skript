@@ -50,7 +50,7 @@ update check interval: 12 hours
 # Please note that this option is currently the only means of making Skript check for an update more than once,
 # as '/skript update check' does only display the results of the last check if a check has been made before.
 
-release channel: @release-channel@
+release channel: stable
 # If 'check for new version' is enabled, this determines how stable the updates must be.
 # 'stable' means that only stable releases of Skript will be considered updates.
 # 'beta' and 'alpha' mean that also development releases will be checked for.
@@ -233,7 +233,8 @@ databases:
 		# ! Please note that you should set 'pattern', 'monitor changes' and 'monitor interval' to the same values on all servers that access the same database!
 
 		# == MySQL configuration ==
-		host: localhost # Where the database server is located at, e.g. 'example.com', 'localhost', or '192.168.1.100'
+		host: localhost # Where the database server is located at, e.g. 'example.com', 'localhost', or '19
+		168.1.100'
 		port: 3306 # 3306 is MySQL's default port, i.e. you likely won't need to change this value
 		user: root
 		password: pass

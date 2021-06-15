@@ -61,6 +61,7 @@ import org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason;
 import org.bukkit.event.inventory.ClickType;
 import org.bukkit.event.inventory.InventoryAction;
 import org.bukkit.event.inventory.InventoryType;
+import org.bukkit.event.player.PlayerFishEvent.State;
 import org.bukkit.event.player.PlayerResourcePackStatusEvent.Status;
 import org.bukkit.event.player.PlayerTeleportEvent.TeleportCause;
 import org.bukkit.inventory.Inventory;
@@ -97,6 +98,7 @@ import ch.njol.skript.util.BlockUtils;
 import ch.njol.skript.util.DamageCauseUtils;
 import ch.njol.skript.util.EnchantmentType;
 import ch.njol.skript.util.EnumUtils;
+import ch.njol.skript.util.FishingStates;
 import ch.njol.skript.util.InventoryActions;
 import ch.njol.skript.util.PotionEffectUtils;
 import ch.njol.skript.util.StringMode;
@@ -537,7 +539,7 @@ public class BukkitClasses {
 					}
 				})
 				.cloner(Vector::clone));
-		
+
 		Classes.registerClass(new ClassInfo<>(World.class, "world")
 				.user("worlds?")
 				.name("World")
@@ -551,7 +553,7 @@ public class BukkitClasses {
 				.parser(new Parser<World>() {
 					@SuppressWarnings("null")
 					private final Pattern parsePattern = Pattern.compile("(?:(?:the )?world )?\"(.+)\"", Pattern.CASE_INSENSITIVE);
-					
+
 					@Override
 					@Nullable
 					public World parse(final String s, final ParseContext context) {
@@ -563,17 +565,17 @@ public class BukkitClasses {
 							return Bukkit.getWorld(m.group(1));
 						return null;
 					}
-					
+
 					@Override
 					public String toString(final World w, final int flags) {
 						return "" + w.getName();
 					}
-					
+
 					@Override
 					public String toVariableNameString(final World w) {
 						return "" + w.getName();
 					}
-					
+
 					@Override
 					public String getVariableNamePattern() {
 						return "\\S+";
@@ -585,17 +587,17 @@ public class BukkitClasses {
 						f.putObject("name", w.getName());
 						return f;
 					}
-					
+
 					@Override
 					public void deserialize(final World o, final Fields f) {
 						assert false;
 					}
-					
+
 					@Override
 					public boolean canBeInstantiated() {
 						return false;
 					}
-					
+
 					@Override
 					protected World deserialize(final Fields fields) throws StreamCorruptedException {
 						final String name = fields.getObject("name", String.class);
@@ -605,17 +607,50 @@ public class BukkitClasses {
 							throw new StreamCorruptedException("Missing world " + name);
 						return w;
 					}
-					
+
 					// return w.getName();
 					@Override
 					@Nullable
 					public World deserialize(final String s) {
 						return Bukkit.getWorld(s);
 					}
-					
+
 					@Override
 					public boolean mustSyncDeserialization() {
 						return true;
+					}
+				}));
+
+		System.out.println("States: "+FishingStates.getAllNames());
+		Classes.registerClass(new ClassInfo<>(State.class, "fishingstate")
+				.user("fishing ?states?")
+				.name("Fishing State")
+				.description("The fishing state in a fishing event.")
+				.usage(FishingStates.getAllNames())
+				.examples("")
+				.since("2.6-mark_")
+				.defaultExpression(new EventValueExpression<>(State.class))
+				.parser(new Parser<State>() {
+					@Override
+					@Nullable
+					public State parse(String s, ParseContext context) {
+						return FishingStates.parse(s);
+					}
+
+					@Override
+					public String toString(State o, int flags) {
+						return FishingStates.toString(o, flags);
+					}
+
+					@SuppressWarnings("null")
+					@Override
+					public String toVariableNameString(State o) {
+						return o.name();
+					}
+
+					@Override
+					public String getVariableNamePattern() {
+						return "\\S+";
 					}
 				}));
 		
