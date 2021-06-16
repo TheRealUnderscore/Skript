@@ -4,8 +4,8 @@ to modify their servers without learning Java. It can also be useful if you
 *do* know Java; some tasks are quicker to do with Skript, and so it can be used
 for prototyping etc.
 
-This Github fork of Skript is based on Mirreski's improvements which was built
-on Njol's original Skript.
+This Github fork of Skript is based on SkriptLang's improvements which was built
+on Mirreski's Skript fork.
 
 ## Requirements
 Skript requires **Spigot** to work. You heard it right, Bukkit does *not* work.
@@ -20,14 +20,14 @@ Minecraft 1.8 and earlier are not, and will not be supported. New Minecraft
 versions will be supported as soon as possible.
 
 ## Download
-You can find the downloads for each version with their release notes in the [releases page](https://github.com/SkriptLang/Skript/releases).
+You can find the downloads for each version with their release notes in the [releases page](https://github.com/TheRealUnderscore/Skript/releases).
 
 ## Documentation
-Documentation is available [here](https://skriptlang.github.io/Skript) for the
+Documentation is available [here](https://therealunderscore.github.io/Skript) for the
 latest version of Skript.
 
 ## Reporting Issues
-Please see our [contribution guidelines](https://github.com/SkriptLang/Skript/blob/master/.github/contributing.md)
+Please see our [contribution guidelines](https://github.com/TheRealUnderscore/Skript/blob/master/.github/contributing.md)
 before reporting issues.
 
 ## A Note About Add-ons
@@ -44,7 +44,7 @@ and package Skript for you:
 gradlew clean build # on Windows
 ```
 
-You can get source code from the [releases page](https://github.com/SkriptLang/Skript/releases).
+You can get source code from the [releases page](https://github.com/TheRealUnderscore/Skript/releases).
 You may also clone this repository, but that code may or may not be stable.
 
 ### Compiling Modules
@@ -98,9 +98,9 @@ Available flavors are github and spigot. Please do not abuse flavors by
 compiling your own test builds as releases.
 
 ## Contributing
-Please review our [contribution guidelines](https://github.com/SkriptLang/Skript/blob/master/.github/contributing.md).
+Please review our [contribution guidelines](https://github.com/TheRealUnderscore/Skript/blob/master/.github/contributing.md).
 In addition to that, if you are contributing Java code, check our
-[coding conventions](https://github.com/SkriptLang/Skript/blob/master/code-conventions.md).
+[coding conventions](https://github.com/TheRealUnderscore/Skript/blob/master/code-conventions.md).
 
 ## Maven Repository
 If you use Skript as (soft) dependency for your plugin, and use maven or Gradle,
@@ -146,7 +146,7 @@ Or, if you use Maven:
 Then you will also need to add Skript as a dependency.
 ```gradle
 dependencies {
-    implementation 'com.github.SkriptLang:Skript:[versionTag]'
+    implementation 'com.github.TheRealUnderscore:Skript:[versionTag]'
 }
 ```
 
@@ -157,7 +157,7 @@ An example of the version tag would be ```dev37c```.
 Or, if you use Maven:
 ```
 <dependency>
-    <groupId>com.github.SkriptLang</groupId>
+    <groupId>com.github.TheRealUnderscore</groupId>
     <artifactId>Skript</artifactId>
     <version>[versionTag]</version>
 </dependency>
@@ -174,7 +174,7 @@ Note that these resources are not maintained by Skript's developers. Don't
 contact us about any problems you might have with them.
 
 ## Developers
-You can find all contributors [here](https://github.com/SkriptLang/Skript/graphs/contributors).
+You can find all contributors [here](https://github.com/TheRealUnderscore/Skript/graphs/contributors).
 
 All code is owned by its writer, licensed for others under GPLv3 (see LICENSE)
 unless otherwise specified.

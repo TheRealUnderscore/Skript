@@ -189,7 +189,7 @@ task githubResources(type: ProcessResources) {
 			'release-flavor'  : 'skriptlang-github', // SkriptLang build, distributed on Github
 			'release-channel' : channel, // Release channel, see above
 			'release-updater' : 'ch.njol.skript.update.GithubChecker', // Github API client
-			'release-source'  : 'https://api.github.com/repos/SkriptLang/Skript/releases', // Github API URL
+			'release-source'  : 'https://api.github.com/repos/TheRealUnderscore/Skript/releases', // Github API URL
 			'release-download': 'null' // Update checker will figure it out
 		]
 	}
@@ -225,7 +225,7 @@ task spigotResources(type: ProcessResources) {
 			'release-flavor'  : 'skriptlang-spigot', // SkriptLang build, distributed on Spigot resources
 			'release-channel' : channel, // Release channel, see above
 			'release-updater' : 'ch.njol.skript.update.GithubChecker', // Github API client
-			'release-source'  : 'https://api.github.com/repos/SkriptLang/Skript/releases', // Github API URL
+			'release-source'  : 'https://api.github.com/repos/TheRealUnderscore/Skript/releases', // Github API URL
 			'release-download': '\'http://example.com\'' // TODO insert Spigot URL
 		]
 	}
