@@ -266,7 +266,7 @@ public class SimpleEvents {
 		Skript.registerEvent("Fishing", SimpleEvent.class, PlayerFishEvent.class, "[player] fish[ing]")
 				.description("Called when a player fishes something. Use 'event-entity' and 'item of event-entity' to get the caught entity/item.")
 				.examples("on fish:")
-				.since("1.0, 2.0 (fishing states)");
+				.since("1.0, 2.0 (fishing states, event-entity, projectile)");
 		if (Skript.classExists("org.bukkit.event.player.PlayerItemBreakEvent")) {
 			Skript.registerEvent("Item Break", SimpleEvent.class, PlayerItemBreakEvent.class, "[player] tool break[ing]", "[player] break[ing] (a|the|) tool")
 					.description("Called when a player breaks their tool because its damage reached the maximum value.",
@@ -369,8 +369,8 @@ public class SimpleEvents {
 				.examples("on bow shoot:",
 						"\tif event-item is a bow:",
 						"\t\tif used item is an arrow:",
-						"\t\\ttsend \"You shot 1 of your %type of used item%<reset> arrows!\" to shooter")
-				.since("INSERT VERSION");
+						"\t\t\tsend \"You shot 1 of your %type of used item% arrows!\" to shooter")
+				.since("2.6-mark");
 		Skript.registerEvent("Sign Change", SimpleEvent.class, SignChangeEvent.class, "sign (chang[e]|edit)[ing]", "[player] (chang[e]|edit)[ing] [a] sign")
 				.description("As signs are placed empty, this event is called when a player is done editing a sign.")
 				.examples("on sign change:",
