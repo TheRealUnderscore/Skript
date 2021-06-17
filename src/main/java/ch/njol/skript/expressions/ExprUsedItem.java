@@ -41,8 +41,8 @@ import org.eclipse.jdt.annotation.Nullable;
 @Examples("on bow shoot:\n" +
     "\tif event-item is a bow:\n" +
     "\t\tsend \"You shot 1 of your %type of used item%<reset> arrows!\" to shooter")
-@Since("INSERT VERSION")
-@Events({ "bow_shoot" })
+@Since("2.6-mark")
+@Events({ "bow shoot" })
 
 public class ExprUsedItem extends SimpleExpression<ItemStack> {
 	static {
