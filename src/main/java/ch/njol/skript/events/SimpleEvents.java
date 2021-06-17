@@ -365,7 +365,7 @@ public class SimpleEvents {
 				.since("1.0");
 		Skript.registerEvent("Bow Shoot", SimpleEvent.class, EntityShootBowEvent.class, "[entity] bow shoot")
 				.description("Called whenever a <a href='classes.html#projectile'>projectile</a> is shot from a bow. Use the <a href='expressions.html#ExprShooter'>shooter expression</a> to get who shot the projectile.", 
-							 "The bow used to shoot the arrow is the event-item, and the <a href='expressions.html#ExprUsedItem'>used item</a> expression returns the shot arrow.")
+							 "The bow used to shoot the arrow is the event-item, and the <a href='expressions.html#ExprUsedItem'>used item</a> expression returns the consumed arrow item.")
 				.examples("on bow shoot:",
 						"\tif event-item is a bow:",
 						"\t\tif used item is an arrow:",

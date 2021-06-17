@@ -39,8 +39,8 @@ import org.eclipse.jdt.annotation.Nullable;
 @Name("Used Item")
 @Description("The item used in a <a href='events.html#bow_shoot'>bow shoot event</a>, i.e. when you shoot a spectral arrow, this expression returns the spectral arrow itemstack.")
 @Examples("on bow shoot:\n" +
-    "\tif event-item is a bow:\n" +
-    "\t\tsend \"You shot 1 of your %type of used item%<reset> arrows!\" to shooter")
+    "	if event-item is a bow:\n" +
+    "		send \"You shot 1 of your %type of used item%<reset> arrows!\" to shooter")
 @Since("2.6-mark")
 @Events({ "bow shoot" })
 
