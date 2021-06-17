@@ -7326,7 +7326,7 @@ In the future there will be an option to use a player's UUID instead of the name
 
     "pattern_end"
   ],
-  "since" : "INSERT VERSION",
+  "since" : "2.6-mark",
   "description" : "The item used in a <a href='events.html#bow_shoot'>bow shoot event</a>, i.e. when you shoot a spectral arrow, this expression returns the spectral arrow itemstack.",
   "examples" : "on bow shoot:
     if event-item is a bow:
