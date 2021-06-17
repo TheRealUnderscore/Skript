@@ -1,0 +1,2549 @@
+ch/njol/skript/config/VoidNode.java
+ ch.njol.skript.config.VoidNode
+ch/njol/skript/expressions/ExprInventory.java
+ ch.njol.skript.expressions.ExprInventory
+ ch.njol.skript.expressions.ExprInventory$1
+ch/njol/skript/config/OptionSection.java
+ ch.njol.skript.config.OptionSection
+ch/njol/skript/command/CommandEvent.java
+ ch.njol.skript.command.CommandEvent
+ch/njol/skript/tests/runner/TestTracker.java
+ ch.njol.skript.tests.runner.TestTracker
+ch/njol/skript/aliases/package-info.java
+ ch.njol.skript.aliases.package-info
+ch/njol/skript/effects/EffOpenBook.java
+ ch.njol.skript.effects.EffOpenBook
+ch/njol/skript/conditions/CondIsBlock.java
+ ch.njol.skript.conditions.CondIsBlock
+ch/njol/skript/util/slot/InventorySlot.java
+ ch.njol.skript.util.slot.InventorySlot
+ch/njol/skript/conditions/CondContains.java
+ ch.njol.skript.conditions.CondContains
+ ch.njol.skript.conditions.CondContains$CheckType
+ch/njol/skript/util/ListVariablePersistentDataType.java
+ ch.njol.skript.util.ListVariablePersistentDataType
+ch/njol/yggdrasil/xml/YggXMLOutputStream.java
+ ch.njol.yggdrasil.xml.YggXMLOutputStream
+ ch.njol.yggdrasil.xml.YggXMLOutputStream$1
+ch/njol/skript/util/DamageCauseUtils.java
+ ch.njol.skript.util.DamageCauseUtils
+ch/njol/skript/log/ParseLogHandler.java
+ ch.njol.skript.log.ParseLogHandler
+ch/njol/skript/effects/EffMakeFly.java
+ ch.njol.skript.effects.EffMakeFly
+ch/njol/skript/expressions/ExprReversedList.java
+ ch.njol.skript.expressions.ExprReversedList
+ch/njol/skript/expressions/ExprSpawnerType.java
+ ch.njol.skript.expressions.ExprSpawnerType
+ ch.njol.skript.expressions.ExprSpawnerType$1
+ch/njol/skript/expressions/ExprValue.java
+ ch.njol.skript.expressions.ExprValue
+ch/njol/skript/entity/CreeperData.java
+ ch.njol.skript.entity.CreeperData
+ch/njol/skript/log/ErrorQuality.java
+ ch.njol.skript.log.ErrorQuality
+ch/njol/skript/util/Timespan.java
+ ch.njol.skript.util.Timespan
+ ch.njol.skript.util.Timespan$1
+ch/njol/skript/classes/SerializableGetter.java
+ ch.njol.skript.classes.SerializableGetter
+ch/njol/skript/expressions/ExprMe.java
+ ch.njol.skript.expressions.ExprMe
+ch/njol/skript/conditions/CondHasScoreboardTag.java
+ ch.njol.skript.conditions.CondHasScoreboardTag
+ch/njol/skript/tests/platform/PlatformMain.java
+ ch.njol.skript.tests.platform.PlatformMain
+ch/njol/skript/util/Getter.java
+ ch.njol.skript.util.Getter
+ch/njol/skript/expressions/ExprNumbers.java
+ ch.njol.skript.expressions.ExprNumbers
+ ch.njol.skript.expressions.ExprNumbers$1
+ ch.njol.skript.expressions.ExprNumbers$2
+ch/njol/util/coll/iterator/SingleItemIterator.java
+ ch.njol.util.coll.iterator.SingleItemIterator
+ch/njol/skript/expressions/ExprItems.java
+ ch.njol.skript.expressions.ExprItems
+ ch.njol.skript.expressions.ExprItems$1
+ ch.njol.skript.expressions.ExprItems$2
+ ch.njol.skript.expressions.ExprItems$3
+ch/njol/skript/conditions/CondIsCharged.java
+ ch.njol.skript.conditions.CondIsCharged
+ch/njol/skript/classes/data/SkriptClasses.java
+ ch.njol.skript.classes.data.SkriptClasses
+ ch.njol.skript.classes.data.SkriptClasses$1
+ ch.njol.skript.classes.data.SkriptClasses$10
+ ch.njol.skript.classes.data.SkriptClasses$11
+ ch.njol.skript.classes.data.SkriptClasses$12
+ ch.njol.skript.classes.data.SkriptClasses$13
+ ch.njol.skript.classes.data.SkriptClasses$14
+ ch.njol.skript.classes.data.SkriptClasses$15
+ ch.njol.skript.classes.data.SkriptClasses$16
+ ch.njol.skript.classes.data.SkriptClasses$17
+ ch.njol.skript.classes.data.SkriptClasses$18
+ ch.njol.skript.classes.data.SkriptClasses$19
+ ch.njol.skript.classes.data.SkriptClasses$2
+ ch.njol.skript.classes.data.SkriptClasses$20
+ ch.njol.skript.classes.data.SkriptClasses$21
+ ch.njol.skript.classes.data.SkriptClasses$22
+ ch.njol.skript.classes.data.SkriptClasses$23
+ ch.njol.skript.classes.data.SkriptClasses$24
+ ch.njol.skript.classes.data.SkriptClasses$25
+ ch.njol.skript.classes.data.SkriptClasses$3
+ ch.njol.skript.classes.data.SkriptClasses$4
+ ch.njol.skript.classes.data.SkriptClasses$5
+ ch.njol.skript.classes.data.SkriptClasses$6
+ ch.njol.skript.classes.data.SkriptClasses$7
+ ch.njol.skript.classes.data.SkriptClasses$8
+ ch.njol.skript.classes.data.SkriptClasses$9
+ch/njol/skript/expressions/ExprLeashHolder.java
+ ch.njol.skript.expressions.ExprLeashHolder
+ch/njol/skript/expressions/ExprExplosionYield.java
+ ch.njol.skript.expressions.ExprExplosionYield
+ ch.njol.skript.expressions.ExprExplosionYield$1
+ch/njol/skript/conditions/CondIsFuel.java
+ ch.njol.skript.conditions.CondIsFuel
+ch/njol/skript/entity/SkeletonData.java
+ ch.njol.skript.entity.SkeletonData
+ch/njol/skript/lang/Variable.java
+ ch.njol.skript.lang.Variable
+ ch.njol.skript.lang.Variable$1
+ ch.njol.skript.lang.Variable$2
+ ch.njol.skript.lang.Variable$3
+ch/njol/skript/expressions/ExprEnderChest.java
+ ch.njol.skript.expressions.ExprEnderChest
+ch/njol/skript/expressions/ExprGlidingState.java
+ ch.njol.skript.expressions.ExprGlidingState
+ch/njol/skript/events/EvtBlock.java
+ ch.njol.skript.events.EvtBlock
+ ch.njol.skript.events.EvtBlock$1
+ ch.njol.skript.events.EvtBlock$2
+ch/njol/skript/events/EvtExperienceSpawn.java
+ ch.njol.skript.events.EvtExperienceSpawn
+ ch.njol.skript.events.EvtExperienceSpawn$1
+ ch.njol.skript.events.EvtExperienceSpawn$2
+ch/njol/skript/effects/EffToggleFlight.java
+ ch.njol.skript.effects.EffToggleFlight
+ch/njol/skript/entity/MinecartData.java
+ ch.njol.skript.entity.MinecartData
+ ch.njol.skript.entity.MinecartData$MinecartType
+ch/njol/skript/conditions/CondDate.java
+ ch.njol.skript.conditions.CondDate
+ch/njol/skript/effects/EffSendTitle.java
+ ch.njol.skript.effects.EffSendTitle
+ch/njol/skript/expressions/ExprOpenedInventory.java
+ ch.njol.skript.expressions.ExprOpenedInventory
+ ch.njol.skript.expressions.ExprOpenedInventory$1
+ch/njol/skript/events/util/PlayerChatEventHandler.java
+ ch.njol.skript.events.util.PlayerChatEventHandler
+ ch.njol.skript.events.util.PlayerChatEventHandler$1
+ ch.njol.skript.events.util.PlayerChatEventHandler$2
+ch/njol/skript/expressions/ExprBed.java
+ ch.njol.skript.expressions.ExprBed
+ch/njol/skript/expressions/ExprOnlinePlayersCount.java
+ ch.njol.skript.expressions.ExprOnlinePlayersCount
+ ch.njol.skript.expressions.ExprOnlinePlayersCount$1
+ch/njol/skript/events/EvtChat.java
+ ch.njol.skript.events.EvtChat
+ ch.njol.skript.events.EvtChat$1
+ ch.njol.skript.events.EvtChat$1$1
+ch/njol/skript/conditions/CondIsInWorld.java
+ ch.njol.skript.conditions.CondIsInWorld
+ch/njol/skript/classes/ConfigurationSerializer.java
+ ch.njol.skript.classes.ConfigurationSerializer
+ch/njol/skript/lang/DefaultExpression.java
+ ch.njol.skript.lang.DefaultExpression
+ch/njol/skript/effects/EffOp.java
+ ch.njol.skript.effects.EffOp
+ch/njol/skript/expressions/ExprEntityTamer.java
+ ch.njol.skript.expressions.ExprEntityTamer
+ ch.njol.skript.expressions.ExprEntityTamer$1
+ch/njol/skript/expressions/ExprEntityAttribute.java
+ ch.njol.skript.expressions.ExprEntityAttribute
+ ch.njol.skript.expressions.ExprEntityAttribute$1
+ch/njol/skript/util/Color.java
+ ch.njol.skript.util.Color
+ch/njol/skript/events/EvtEntity.java
+ ch.njol.skript.events.EvtEntity
+ch/njol/skript/expressions/ExprStringCase.java
+ ch.njol.skript.expressions.ExprStringCase
+ch/njol/skript/expressions/ExprClicked.java
+ ch.njol.skript.expressions.ExprClicked
+ ch.njol.skript.expressions.ExprClicked$1
+ ch.njol.skript.expressions.ExprClicked$ClickableType
+ch/njol/skript/expressions/ExprLastSpawnedEntity.java
+ ch.njol.skript.expressions.ExprLastSpawnedEntity
+ch/njol/skript/expressions/ExprDistance.java
+ ch.njol.skript.expressions.ExprDistance
+ch/njol/skript/effects/EffConnect.java
+ ch.njol.skript.effects.EffConnect
+ch/njol/skript/lang/function/Parameter.java
+ ch.njol.skript.lang.function.Parameter
+ch/njol/skript/conditions/CondCanHold.java
+ ch.njol.skript.conditions.CondCanHold
+ch/njol/skript/lang/SkriptEvent.java
+ ch.njol.skript.lang.SkriptEvent
+ch/njol/skript/tests/TestResults.java
+ ch.njol.skript.tests.TestResults
+ch/njol/skript/expressions/ExprPassenger.java
+ ch.njol.skript.expressions.ExprPassenger
+ ch.njol.skript.expressions.ExprPassenger$1
+ ch.njol.skript.expressions.ExprPassenger$2
+ch/njol/skript/config/validate/ParsedEntryValidator.java
+ ch.njol.skript.config.validate.ParsedEntryValidator
+ch/njol/skript/doc/RequiredPlugins.java
+ ch.njol.skript.doc.RequiredPlugins
+ch/njol/yggdrasil/xml/YggXMLInputStream.java
+ ch.njol.yggdrasil.xml.YggXMLInputStream
+ ch.njol.yggdrasil.xml.YggXMLInputStream$1
+ch/njol/skript/expressions/ExprFurnaceSlot.java
+ ch.njol.skript.expressions.ExprFurnaceSlot
+ ch.njol.skript.expressions.ExprFurnaceSlot$1
+ ch.njol.skript.expressions.ExprFurnaceSlot$FurnaceEventSlot
+ch/njol/skript/conditions/CondMatches.java
+ ch.njol.skript.conditions.CondMatches
+ch/njol/skript/effects/EffExplodeCreeper.java
+ ch.njol.skript.effects.EffExplodeCreeper
+ch/njol/skript/doc/HTMLGenerator.java
+ ch.njol.skript.doc.HTMLGenerator
+ ch.njol.skript.doc.HTMLGenerator$1
+ ch.njol.skript.doc.HTMLGenerator$AnnotatedComparator
+ ch.njol.skript.doc.HTMLGenerator$ClassInfoComparator
+ ch.njol.skript.doc.HTMLGenerator$EventComparator
+ ch.njol.skript.doc.HTMLGenerator$FunctionComparator
+ch/njol/skript/log/BukkitLoggerFilter.java
+ ch.njol.skript.log.BukkitLoggerFilter
+ch/njol/skript/expressions/ExprItemFrameSlot.java
+ ch.njol.skript.expressions.ExprItemFrameSlot
+ch/njol/skript/command/Argument.java
+ ch.njol.skript.command.Argument
+ch/njol/skript/doc/DocumentationId.java
+ ch.njol.skript.doc.DocumentationId
+ch/njol/skript/expressions/ExprPlayerlistHeaderFooter.java
+ ch.njol.skript.expressions.ExprPlayerlistHeaderFooter
+ ch.njol.skript.expressions.ExprPlayerlistHeaderFooter$1
+ch/njol/skript/util/BlockUtils.java
+ ch.njol.skript.util.BlockUtils
+ch/njol/skript/hooks/regions/ResidenceHook.java
+ ch.njol.skript.hooks.regions.ResidenceHook
+ ch.njol.skript.hooks.regions.ResidenceHook$ResidenceRegion
+ch/njol/skript/events/util/package-info.java
+ ch.njol.skript.events.util.package-info
+ch/njol/skript/effects/EffBreakNaturally.java
+ ch.njol.skript.effects.EffBreakNaturally
+ch/njol/skript/util/Direction.java
+ ch.njol.skript.util.Direction
+ ch.njol.skript.util.Direction$1
+ch/njol/skript/update/package-info.java
+ ch.njol.skript.update.package-info
+ch/njol/skript/entity/BoatData.java
+ ch.njol.skript.entity.BoatData
+ch/njol/skript/bukkitutil/BiomeMappings.java
+ ch.njol.skript.bukkitutil.BiomeMappings
+ch/njol/skript/entity/SheepData.java
+ ch.njol.skript.entity.SheepData
+ch/njol/skript/effects/EffPlaySound.java
+ ch.njol.skript.effects.EffPlaySound
+ch/njol/skript/expressions/ExprHiddenPlayers.java
+ ch.njol.skript.expressions.ExprHiddenPlayers
+ch/njol/skript/conditions/CondIsSprinting.java
+ ch.njol.skript.conditions.CondIsSprinting
+ch/njol/skript/effects/EffExit.java
+ ch.njol.skript.effects.EffExit
+ch/njol/skript/util/FileUtils.java
+ ch.njol.skript.util.FileUtils
+ch/njol/skript/expressions/ExprFlightMode.java
+ ch.njol.skript.expressions.ExprFlightMode
+ch/njol/skript/conditions/base/package-info.java
+ ch.njol.skript.conditions.base.package-info
+ch/njol/skript/util/Task.java
+ ch.njol.skript.util.Task
+ch/njol/util/coll/iterator/ReversedListIterator.java
+ ch.njol.util.coll.iterator.ReversedListIterator
+ch/njol/skript/hooks/regions/PreciousStonesHook.java
+ ch.njol.skript.hooks.regions.PreciousStonesHook
+ ch.njol.skript.hooks.regions.PreciousStonesHook$PreciousStonesRegion
+ch/njol/skript/SkriptAPIException.java
+ ch.njol.skript.SkriptAPIException
+ch/njol/skript/expressions/ExprVectorCrossProduct.java
+ ch.njol.skript.expressions.ExprVectorCrossProduct
+ch/njol/skript/conditions/CondIsSneaking.java
+ ch.njol.skript.conditions.CondIsSneaking
+ch/njol/skript/classes/Converter.java
+ ch.njol.skript.classes.Converter
+ ch.njol.skript.classes.Converter$ConverterInfo
+ ch.njol.skript.classes.Converter$ConverterUtils
+ ch.njol.skript.classes.Converter$ConverterUtils$1
+ ch.njol.skript.classes.Converter$ConverterUtils$2
+ ch.njol.skript.classes.Converter$ConverterUtils$3
+ch/njol/skript/effects/EffSendResourcePack.java
+ ch.njol.skript.effects.EffSendResourcePack
+ch/njol/skript/localization/package-info.java
+ ch.njol.skript.localization.package-info
+ch/njol/util/Checker.java
+ ch.njol.util.Checker
+ch/njol/skript/expressions/ExprVectorFromXYZ.java
+ ch.njol.skript.expressions.ExprVectorFromXYZ
+ch/njol/skript/entity/DroppedItemData.java
+ ch.njol.skript.entity.DroppedItemData
+ch/njol/skript/util/chat/MessageComponent.java
+ ch.njol.skript.util.chat.MessageComponent
+ ch.njol.skript.util.chat.MessageComponent$BooleanSerializer
+ ch.njol.skript.util.chat.MessageComponent$ClickEvent
+ ch.njol.skript.util.chat.MessageComponent$ClickEvent$Action
+ ch.njol.skript.util.chat.MessageComponent$HoverEvent
+ ch.njol.skript.util.chat.MessageComponent$HoverEvent$Action
+ch/njol/skript/hooks/Hook.java
+ ch.njol.skript.hooks.Hook
+ch/njol/skript/entity/ThrownPotionData.java
+ ch.njol.skript.entity.ThrownPotionData
+ch/njol/skript/expressions/ExprVectorXYZ.java
+ ch.njol.skript.expressions.ExprVectorXYZ
+ ch.njol.skript.expressions.ExprVectorXYZ$1
+ch/njol/skript/expressions/ExprLength.java
+ ch.njol.skript.expressions.ExprLength
+ch/njol/skript/config/ConfigReader.java
+ ch.njol.skript.config.ConfigReader
+ch/njol/skript/expressions/ExprAppliedEnchantments.java
+ ch.njol.skript.expressions.ExprAppliedEnchantments
+ ch.njol.skript.expressions.ExprAppliedEnchantments$1
+ch/njol/yggdrasil/JRESerializer.java
+ ch.njol.yggdrasil.JRESerializer
+ch/njol/skript/effects/EffBan.java
+ ch.njol.skript.effects.EffBan
+ch/njol/skript/conditions/CondDamageCause.java
+ ch.njol.skript.conditions.CondDamageCause
+ch/njol/skript/expressions/ExprPortal.java
+ ch.njol.skript.expressions.ExprPortal
+ch/njol/skript/conditions/CondHasClientWeather.java
+ ch.njol.skript.conditions.CondHasClientWeather
+ch/njol/yggdrasil/Tag.java
+ ch.njol.yggdrasil.Tag
+ch/njol/skript/expressions/base/PropertyExpression.java
+ ch.njol.skript.expressions.base.PropertyExpression
+ch/njol/skript/conditions/CondIsWearing.java
+ ch.njol.skript.conditions.CondIsWearing
+ch/njol/skript/effects/EffSuppressWarnings.java
+ ch.njol.skript.effects.EffSuppressWarnings
+ch/njol/skript/Metrics.java
+ ch.njol.skript.Metrics
+ ch.njol.skript.Metrics$1
+ ch.njol.skript.Metrics$1$1
+ ch.njol.skript.Metrics$2
+ ch.njol.skript.Metrics$AdvancedBarChart
+ ch.njol.skript.Metrics$AdvancedMapChart
+ ch.njol.skript.Metrics$AdvancedPie
+ ch.njol.skript.Metrics$Country
+ ch.njol.skript.Metrics$CustomChart
+ ch.njol.skript.Metrics$MultiLineChart
+ ch.njol.skript.Metrics$SimpleBarChart
+ ch.njol.skript.Metrics$SimpleMapChart
+ ch.njol.skript.Metrics$SimplePie
+ ch.njol.skript.Metrics$SingleLineChart
+ch/njol/skript/log/SkriptLogger.java
+ ch.njol.skript.log.SkriptLogger
+ ch.njol.skript.log.SkriptLogger$1
+ch/njol/skript/log/HandlerList.java
+ ch.njol.skript.log.HandlerList
+ch/njol/util/coll/CollectionUtils.java
+ ch.njol.util.coll.CollectionUtils
+ch/njol/skript/expressions/ExprItem.java
+ ch.njol.skript.expressions.ExprItem
+ ch.njol.skript.expressions.ExprItem$1
+ch/njol/skript/expressions/ExprEnchantmentExpCosts.java
+ ch.njol.skript.expressions.ExprEnchantmentExpCosts
+ ch.njol.skript.expressions.ExprEnchantmentExpCosts$1
+ch/njol/skript/expressions/ExprPermissions.java
+ ch.njol.skript.expressions.ExprPermissions
+ch/njol/skript/hooks/regions/conditions/CondIsMember.java
+ ch.njol.skript.hooks.regions.conditions.CondIsMember
+ ch.njol.skript.hooks.regions.conditions.CondIsMember$1
+ ch.njol.skript.hooks.regions.conditions.CondIsMember$1$1
+ch/njol/skript/lang/function/SimpleJavaFunction.java
+ ch.njol.skript.lang.function.SimpleJavaFunction
+ch/njol/skript/classes/Parser.java
+ ch.njol.skript.classes.Parser
+ ch.njol.skript.classes.Parser$1
+ch/njol/skript/expressions/ExprFinalDamage.java
+ ch.njol.skript.expressions.ExprFinalDamage
+ch/njol/skript/conditions/CondPlayedBefore.java
+ ch.njol.skript.conditions.CondPlayedBefore
+ch/njol/yggdrasil/Fields.java
+ ch.njol.yggdrasil.Fields
+ ch.njol.yggdrasil.Fields$FieldContext
+ch/njol/skript/effects/EffLoadServerIcon.java
+ ch.njol.skript.effects.EffLoadServerIcon
+ch/njol/skript/expressions/ExprSeaLevel.java
+ ch.njol.skript.expressions.ExprSeaLevel
+ch/njol/skript/events/EvtClick.java
+ ch.njol.skript.events.EvtClick
+ ch.njol.skript.events.EvtClick$1
+ ch.njol.skript.events.EvtClick$2
+ ch.njol.skript.events.EvtClick$3
+ch/njol/skript/expressions/arithmetic/NumberExpressionInfo.java
+ ch.njol.skript.expressions.arithmetic.NumberExpressionInfo
+ch/njol/skript/expressions/ExprFacing.java
+ ch.njol.skript.expressions.ExprFacing
+ch/njol/skript/conditions/CondIsSolid.java
+ ch.njol.skript.conditions.CondIsSolid
+ch/njol/skript/conditions/CondIsRiptiding.java
+ ch.njol.skript.conditions.CondIsRiptiding
+ch/njol/skript/expressions/ExprHotbarSlot.java
+ ch.njol.skript.expressions.ExprHotbarSlot
+ch/njol/skript/expressions/ExprUnixDate.java
+ ch.njol.skript.expressions.ExprUnixDate
+ch/njol/skript/expressions/ExprTeleportCause.java
+ ch.njol.skript.expressions.ExprTeleportCause
+ch/njol/skript/hooks/regions/conditions/CondRegionContains.java
+ ch.njol.skript.hooks.regions.conditions.CondRegionContains
+ ch.njol.skript.hooks.regions.conditions.CondRegionContains$1
+ ch.njol.skript.hooks.regions.conditions.CondRegionContains$1$1
+ch/njol/skript/doc/Name.java
+ ch.njol.skript.doc.Name
+ch/njol/skript/expressions/ExprTool.java
+ ch.njol.skript.expressions.ExprTool
+ ch.njol.skript.expressions.ExprTool$1
+ ch.njol.skript.expressions.ExprTool$1$1
+ ch.njol.skript.expressions.ExprTool$1$2
+ch/njol/skript/expressions/ExprRandomUUID.java
+ ch.njol.skript.expressions.ExprRandomUUID
+ch/njol/skript/command/ScriptCommandEvent.java
+ ch.njol.skript.command.ScriptCommandEvent
+ch/njol/skript/expressions/ExprVectorSpherical.java
+ ch.njol.skript.expressions.ExprVectorSpherical
+ch/njol/skript/expressions/ExprLevelProgress.java
+ ch.njol.skript.expressions.ExprLevelProgress
+ ch.njol.skript.expressions.ExprLevelProgress$1
+ch/njol/skript/hooks/regions/conditions/package-info.java
+ ch.njol.skript.hooks.regions.conditions.package-info
+ch/njol/skript/conditions/CondIsPassable.java
+ ch.njol.skript.conditions.CondIsPassable
+ch/njol/skript/conditions/CondIsOnline.java
+ ch.njol.skript.conditions.CondIsOnline
+ch/njol/skript/expressions/ExprHealth.java
+ ch.njol.skript.expressions.ExprHealth
+ ch.njol.skript.expressions.ExprHealth$1
+ ch.njol.skript.expressions.ExprHealth$2
+ch/njol/skript/classes/data/package-info.java
+ ch.njol.skript.classes.data.package-info
+ch/njol/skript/effects/EffSwingHand.java
+ ch.njol.skript.effects.EffSwingHand
+ch/njol/skript/expressions/ExprWhitelist.java
+ ch.njol.skript.expressions.ExprWhitelist
+ ch.njol.skript.expressions.ExprWhitelist$1
+ch/njol/skript/expressions/ExprMaxHealth.java
+ ch.njol.skript.expressions.ExprMaxHealth
+ ch.njol.skript.expressions.ExprMaxHealth$1
+ch/njol/skript/expressions/ExprVectorRandom.java
+ ch.njol.skript.expressions.ExprVectorRandom
+ch/njol/skript/expressions/ExprMaxDurability.java
+ ch.njol.skript.expressions.ExprMaxDurability
+ch/njol/skript/effects/EffMessage.java
+ ch.njol.skript.effects.EffMessage
+ch/njol/skript/util/Experience.java
+ ch.njol.skript.util.Experience
+ch/njol/skript/expressions/ExprProjectileCriticalState.java
+ ch.njol.skript.expressions.ExprProjectileCriticalState
+ch/njol/skript/expressions/ExprTamer.java
+ ch.njol.skript.expressions.ExprTamer
+ch/njol/skript/util/visual/VisualEffect.java
+ ch.njol.skript.util.visual.VisualEffect
+ch/njol/skript/doc/Documentation.java
+ ch.njol.skript.doc.Documentation
+ ch.njol.skript.doc.Documentation$1
+ch/njol/skript/bukkitutil/BurgerHelper.java
+ ch.njol.skript.bukkitutil.BurgerHelper
+ ch.njol.skript.bukkitutil.BurgerHelper$Blocks
+ ch.njol.skript.bukkitutil.BurgerHelper$Burger
+ ch.njol.skript.bukkitutil.BurgerHelper$ItemOrBlock
+ ch.njol.skript.bukkitutil.BurgerHelper$Items
+ ch.njol.skript.bukkitutil.BurgerHelper$Source
+ch/njol/skript/expressions/ExprExplodedBlocks.java
+ ch.njol.skript.expressions.ExprExplodedBlocks
+ch/njol/skript/hooks/regions/expressions/ExprMembersOfRegion.java
+ ch.njol.skript.hooks.regions.expressions.ExprMembersOfRegion
+ch/njol/skript/lang/function/Signature.java
+ ch.njol.skript.lang.function.Signature
+ch/njol/skript/util/EmptyStacktraceException.java
+ ch.njol.skript.util.EmptyStacktraceException
+ch/njol/skript/util/BlockSphereIterator.java
+ ch.njol.skript.util.BlockSphereIterator
+ ch.njol.skript.util.BlockSphereIterator$1
+ch/njol/skript/conditions/CondItemInHand.java
+ ch.njol.skript.conditions.CondItemInHand
+ch/njol/skript/util/chat/BungeeConverter.java
+ ch.njol.skript.util.chat.BungeeConverter
+ch/njol/skript/conditions/CondAlphanumeric.java
+ ch.njol.skript.conditions.CondAlphanumeric
+ch/njol/skript/util/visual/VisualEffectType.java
+ ch.njol.skript.util.visual.VisualEffectType
+ch/njol/skript/expressions/LitAt.java
+ ch.njol.skript.expressions.LitAt
+ch/njol/skript/classes/Arithmetic.java
+ ch.njol.skript.classes.Arithmetic
+ch/njol/skript/aliases/ItemFlags.java
+ ch.njol.skript.aliases.ItemFlags
+ch/njol/skript/expressions/ExprLocationAt.java
+ ch.njol.skript.expressions.ExprLocationAt
+ch/njol/skript/expressions/ExprSpawn.java
+ ch.njol.skript.expressions.ExprSpawn
+ ch.njol.skript.expressions.ExprSpawn$1
+ch/njol/skript/localization/Noun.java
+ ch.njol.skript.localization.Noun
+ ch.njol.skript.localization.Noun$1
+ch/njol/skript/events/bukkit/SkriptStopEvent.java
+ ch.njol.skript.events.bukkit.SkriptStopEvent
+ch/njol/skript/Skript.java
+ ch.njol.skript.Skript
+ ch.njol.skript.Skript$1
+ ch.njol.skript.Skript$1$1
+ ch.njol.skript.Skript$1$10
+ ch.njol.skript.Skript$1$11
+ ch.njol.skript.Skript$1$12
+ ch.njol.skript.Skript$1$13
+ ch.njol.skript.Skript$1$14
+ ch.njol.skript.Skript$1$15
+ ch.njol.skript.Skript$1$16
+ ch.njol.skript.Skript$1$17
+ ch.njol.skript.Skript$1$2
+ ch.njol.skript.Skript$1$3
+ ch.njol.skript.Skript$1$4
+ ch.njol.skript.Skript$1$5
+ ch.njol.skript.Skript$1$6
+ ch.njol.skript.Skript$1$7
+ ch.njol.skript.Skript$1$8
+ ch.njol.skript.Skript$1$9
+ ch.njol.skript.Skript$2
+ ch.njol.skript.Skript$2$1
+ ch.njol.skript.Skript$3
+ ch.njol.skript.Skript$4
+ ch.njol.skript.Skript$5
+ch/njol/skript/expressions/ExprLastResourcePackResponse.java
+ ch.njol.skript.expressions.ExprLastResourcePackResponse
+ch/njol/skript/entity/VillagerData.java
+ ch.njol.skript.entity.VillagerData
+ch/njol/skript/expressions/ExprChatFormat.java
+ ch.njol.skript.expressions.ExprChatFormat
+ch/njol/skript/util/ScriptOptions.java
+ ch.njol.skript.util.ScriptOptions
+ch/njol/skript/effects/EffContinue.java
+ ch.njol.skript.effects.EffContinue
+ch/njol/skript/events/bukkit/SkriptStartEvent.java
+ ch.njol.skript.events.bukkit.SkriptStartEvent
+ch/njol/skript/expressions/ExprDurability.java
+ ch.njol.skript.expressions.ExprDurability
+ ch.njol.skript.expressions.ExprDurability$1
+ch/njol/skript/effects/EffTree.java
+ ch.njol.skript.effects.EffTree
+ch/njol/skript/effects/EffFireworkLaunch.java
+ ch.njol.skript.effects.EffFireworkLaunch
+ch/njol/skript/util/DelayedChangeBlock.java
+ ch.njol.skript.util.DelayedChangeBlock
+ ch.njol.skript.util.DelayedChangeBlock$1
+ ch.njol.skript.util.DelayedChangeBlock$2
+ ch.njol.skript.util.DelayedChangeBlock$3
+ ch.njol.skript.util.DelayedChangeBlock$4
+ ch.njol.skript.util.DelayedChangeBlock$5
+ch/njol/skript/bukkitutil/HealthUtils.java
+ ch.njol.skript.bukkitutil.HealthUtils
+ch/njol/skript/expressions/ExprParseError.java
+ ch.njol.skript.expressions.ExprParseError
+ch/njol/skript/util/SingleVariablePersistentDataType.java
+ ch.njol.skript.util.SingleVariablePersistentDataType
+ch/njol/util/coll/iterator/SingleItemIterable.java
+ ch.njol.util.coll.iterator.SingleItemIterable
+ch/njol/skript/effects/Delay.java
+ ch.njol.skript.effects.Delay
+ ch.njol.skript.effects.Delay$1
+ch/njol/skript/events/bukkit/ScriptEvent.java
+ ch.njol.skript.events.bukkit.ScriptEvent
+ch/njol/yggdrasil/YggdrasilOutputStream.java
+ ch.njol.yggdrasil.YggdrasilOutputStream
+ ch.njol.yggdrasil.YggdrasilOutputStream$1
+ch/njol/skript/effects/EffCancelCooldown.java
+ ch.njol.skript.effects.EffCancelCooldown
+ch/njol/skript/localization/Language.java
+ ch.njol.skript.localization.Language
+ ch.njol.skript.localization.Language$LanguageListenerPriority
+ch/njol/skript/expressions/arithmetic/package-info.java
+ ch.njol.skript.expressions.arithmetic.package-info
+ch/njol/skript/localization/FormattedMessage.java
+ ch.njol.skript.localization.FormattedMessage
+ch/njol/skript/log/ErrorDescLogHandler.java
+ ch.njol.skript.log.ErrorDescLogHandler
+ch/njol/skript/effects/EffToggle.java
+ ch.njol.skript.effects.EffToggle
+ch/njol/skript/expressions/ExprSkull.java
+ ch.njol.skript.expressions.ExprSkull
+ch/njol/skript/conditions/CondCanFly.java
+ ch.njol.skript.conditions.CondCanFly
+ch/njol/skript/expressions/ExprProjectileBounceState.java
+ ch.njol.skript.expressions.ExprProjectileBounceState
+ch/njol/skript/util/Slot.java
+ ch.njol.skript.util.Slot
+ch/njol/util/coll/iterator/IteratorIterable.java
+ ch.njol.util.coll.iterator.IteratorIterable
+ch/njol/skript/hooks/regions/events/RegionBorderEvent.java
+ ch.njol.skript.hooks.regions.events.RegionBorderEvent
+ch/njol/skript/lang/util/package-info.java
+ ch.njol.skript.lang.util.package-info
+ch/njol/skript/update/ReleaseManifest.java
+ ch.njol.skript.update.ReleaseManifest
+ ch.njol.skript.update.ReleaseManifest$ClassSerializer
+ch/njol/skript/conditions/CondPvP.java
+ ch.njol.skript.conditions.CondPvP
+ch/njol/skript/lang/ExpressionList.java
+ ch.njol.skript.lang.ExpressionList
+ ch.njol.skript.lang.ExpressionList$1
+ch/njol/skript/expressions/ExprCommandInfo.java
+ ch.njol.skript.expressions.ExprCommandInfo
+ ch.njol.skript.expressions.ExprCommandInfo$1
+ ch.njol.skript.expressions.ExprCommandInfo$InfoType
+ch/njol/skript/tests/runner/EvtTestCase.java
+ ch.njol.skript.tests.runner.EvtTestCase
+ch/njol/skript/expressions/ExprDropsOfBlock.java
+ ch.njol.skript.expressions.ExprDropsOfBlock
+ch/njol/skript/expressions/ExprEnchantmentLevel.java
+ ch.njol.skript.expressions.ExprEnchantmentLevel
+ ch.njol.skript.expressions.ExprEnchantmentLevel$1
+ch/njol/skript/hooks/regions/events/package-info.java
+ ch.njol.skript.hooks.regions.events.package-info
+ch/njol/skript/expressions/ExprVectorCylindrical.java
+ ch.njol.skript.expressions.ExprVectorCylindrical
+ch/njol/skript/variables/DatabaseStorage.java
+ ch.njol.skript.variables.DatabaseStorage
+ ch.njol.skript.variables.DatabaseStorage$1
+ ch.njol.skript.variables.DatabaseStorage$2
+ ch.njol.skript.variables.DatabaseStorage$3
+ ch.njol.skript.variables.DatabaseStorage$4
+ ch.njol.skript.variables.DatabaseStorage$5
+ ch.njol.skript.variables.DatabaseStorage$6
+ ch.njol.skript.variables.DatabaseStorage$7
+ ch.njol.skript.variables.DatabaseStorage$Type
+ ch.njol.skript.variables.DatabaseStorage$Type$1
+ ch.njol.skript.variables.DatabaseStorage$Type$2
+ch/njol/skript/bukkitutil/EnchantmentUtils.java
+ ch.njol.skript.bukkitutil.EnchantmentUtils
+ch/njol/skript/conditions/CondIsBlockRedstonePowered.java
+ ch.njol.skript.conditions.CondIsBlockRedstonePowered
+ch/njol/skript/entity/FishData.java
+ ch.njol.skript.entity.FishData
+ch/njol/skript/entity/LlamaData.java
+ ch.njol.skript.entity.LlamaData
+ch/njol/skript/classes/SerializableChecker.java
+ ch.njol.skript.classes.SerializableChecker
+ch/njol/skript/expressions/arithmetic/ExprArithmetic.java
+ ch.njol.skript.expressions.arithmetic.ExprArithmetic
+ ch.njol.skript.expressions.arithmetic.ExprArithmetic$PatternInfo
+ch/njol/skript/expressions/ExprMaxPlayers.java
+ ch.njol.skript.expressions.ExprMaxPlayers
+ ch.njol.skript.expressions.ExprMaxPlayers$1
+ch/njol/skript/effects/EffLog.java
+ ch.njol.skript.effects.EffLog
+ ch.njol.skript.effects.EffLog$1
+ch/njol/skript/effects/EffSilence.java
+ ch.njol.skript.effects.EffSilence
+ch/njol/skript/hooks/economy/expressions/ExprBalance.java
+ ch.njol.skript.hooks.economy.expressions.ExprBalance
+ ch.njol.skript.hooks.economy.expressions.ExprBalance$1
+ch/njol/skript/expressions/ExprLanguage.java
+ ch.njol.skript.expressions.ExprLanguage
+ch/njol/skript/conditions/CondIsSet.java
+ ch.njol.skript.conditions.CondIsSet
+ch/njol/util/coll/BidiMap.java
+ ch.njol.util.coll.BidiMap
+ch/njol/skript/conditions/CondIsPluginEnabled.java
+ ch.njol.skript.conditions.CondIsPluginEnabled
+ch/njol/skript/util/Utils.java
+ ch.njol.skript.util.Utils
+ ch.njol.skript.util.Utils$1
+ ch.njol.skript.util.Utils$2
+ ch.njol.skript.util.Utils$3
+ch/njol/skript/expressions/ExprRespawnLocation.java
+ ch.njol.skript.expressions.ExprRespawnLocation
+ch/njol/skript/lang/function/package-info.java
+ ch.njol.skript.lang.function.package-info
+ch/njol/skript/lang/function/JavaFunction.java
+ ch.njol.skript.lang.function.JavaFunction
+ch/njol/skript/expressions/ExprBookTitle.java
+ ch.njol.skript.expressions.ExprBookTitle
+ch/njol/skript/expressions/ExprHealAmount.java
+ ch.njol.skript.expressions.ExprHealAmount
+ ch.njol.skript.expressions.ExprHealAmount$1
+ch/njol/skript/util/BiomeUtils.java
+ ch.njol.skript.util.BiomeUtils
+ch/njol/skript/doc/Examples.java
+ ch.njol.skript.doc.Examples
+ch/njol/skript/expressions/ExprHash.java
+ ch.njol.skript.expressions.ExprHash
+ch/njol/skript/classes/NumberArithmetic.java
+ ch.njol.skript.classes.NumberArithmetic
+ch/njol/skript/expressions/ExprExhaustion.java
+ ch.njol.skript.expressions.ExprExhaustion
+ ch.njol.skript.expressions.ExprExhaustion$1
+ch/njol/skript/expressions/ExprRelationalVariable.java
+ ch.njol.skript.expressions.ExprRelationalVariable
+ ch.njol.skript.expressions.ExprRelationalVariable$1
+ch/njol/skript/expressions/ExprUsedItem.java
+ ch.njol.skript.expressions.ExprUsedItem
+ch/njol/skript/util/slot/DroppedItemSlot.java
+ ch.njol.skript.util.slot.DroppedItemSlot
+ch/njol/skript/lang/SkriptEventInfo.java
+ ch.njol.skript.lang.SkriptEventInfo
+ch/njol/skript/entity/PigData.java
+ ch.njol.skript.entity.PigData
+ch/njol/skript/classes/InverseComparator.java
+ ch.njol.skript.classes.InverseComparator
+ch/njol/skript/effects/EffTeleport.java
+ ch.njol.skript.effects.EffTeleport
+ch/njol/skript/events/EvtSkript.java
+ ch.njol.skript.events.EvtSkript
+ch/njol/util/coll/package-info.java
+ ch.njol.util.coll.package-info
+ch/njol/util/SynchronizedReference.java
+ ch.njol.util.SynchronizedReference
+ch/njol/skript/entity/FoxData.java
+ ch.njol.skript.entity.FoxData
+ch/njol/skript/config/validate/SectionValidator.java
+ ch.njol.skript.config.validate.SectionValidator
+ ch.njol.skript.config.validate.SectionValidator$NodeInfo
+ch/njol/skript/util/Date.java
+ ch.njol.skript.util.Date
+ch/njol/skript/expressions/ExprFireworkEffect.java
+ ch.njol.skript.expressions.ExprFireworkEffect
+ch/njol/skript/events/EvtMoveOn.java
+ ch.njol.skript.events.EvtMoveOn
+ ch.njol.skript.events.EvtMoveOn$1
+ ch.njol.skript.events.EvtMoveOn$2
+ch/njol/skript/effects/EffKeepInventory.java
+ ch.njol.skript.effects.EffKeepInventory
+ch/njol/skript/expressions/ExprSignText.java
+ ch.njol.skript.expressions.ExprSignText
+ ch.njol.skript.expressions.ExprSignText$1
+ch/njol/skript/events/EvtGameMode.java
+ ch.njol.skript.events.EvtGameMode
+ ch.njol.skript.events.EvtGameMode$1
+ch/njol/skript/conditions/CondAI.java
+ ch.njol.skript.conditions.CondAI
+ch/njol/skript/conditions/CondIsEdible.java
+ ch.njol.skript.conditions.CondIsEdible
+ch/njol/skript/hooks/regions/conditions/CondCanBuild.java
+ ch.njol.skript.hooks.regions.conditions.CondCanBuild
+ ch.njol.skript.hooks.regions.conditions.CondCanBuild$1
+ ch.njol.skript.hooks.regions.conditions.CondCanBuild$1$1
+ch/njol/skript/expressions/ExprNamed.java
+ ch.njol.skript.expressions.ExprNamed
+ ch.njol.skript.expressions.ExprNamed$1
+ch/njol/skript/expressions/ExprUUID.java
+ ch.njol.skript.expressions.ExprUUID
+ch/njol/skript/expressions/ExprColorOf.java
+ ch.njol.skript.expressions.ExprColorOf
+ ch.njol.skript.expressions.ExprColorOf$1
+ch/njol/skript/effects/EffStopSound.java
+ ch.njol.skript.effects.EffStopSound
+ch/njol/skript/events/EvtFirstJoin.java
+ ch.njol.skript.events.EvtFirstJoin
+ch/njol/skript/events/EvtItem.java
+ ch.njol.skript.events.EvtItem
+ ch.njol.skript.events.EvtItem$1
+ch/njol/skript/expressions/ExprShuffledList.java
+ ch.njol.skript.expressions.ExprShuffledList
+ch/njol/skript/util/BlockInventoryHolder.java
+ ch.njol.skript.util.BlockInventoryHolder
+ch/njol/skript/util/StringMode.java
+ ch.njol.skript.util.StringMode
+ch/njol/util/coll/iterator/CombinedIterator.java
+ ch.njol.util.coll.iterator.CombinedIterator
+ch/njol/skript/expressions/ExprTPS.java
+ ch.njol.skript.expressions.ExprTPS
+ch/njol/skript/lang/Testable.java
+ ch.njol.skript.lang.Testable
+ch/njol/skript/util/slot/Slot.java
+ ch.njol.skript.util.slot.Slot
+ch/njol/skript/conditions/CondIncendiary.java
+ ch.njol.skript.conditions.CondIncendiary
+ch/njol/skript/conditions/CondIsSleeping.java
+ ch.njol.skript.conditions.CondIsSleeping
+ch/njol/skript/effects/EffLightning.java
+ ch.njol.skript.effects.EffLightning
+ch/njol/skript/expressions/ExprBlockSphere.java
+ ch.njol.skript.expressions.ExprBlockSphere
+ch/njol/skript/registrations/Classes.java
+ ch.njol.skript.registrations.Classes
+ ch.njol.skript.registrations.Classes$1
+ch/njol/skript/conditions/CondHasResourcePack.java
+ ch.njol.skript.conditions.CondHasResourcePack
+ch/njol/skript/expressions/ExprLastDamageCause.java
+ ch.njol.skript.expressions.ExprLastDamageCause
+ ch.njol.skript.expressions.ExprLastDamageCause$1
+ ch.njol.skript.expressions.ExprLastDamageCause$2
+ch/njol/skript/util/chat/LinkParseMode.java
+ ch.njol.skript.util.chat.LinkParseMode
+ch/njol/skript/expressions/ExprMaxStack.java
+ ch.njol.skript.expressions.ExprMaxStack
+ch/njol/skript/log/LogHandler.java
+ ch.njol.skript.log.LogHandler
+ ch.njol.skript.log.LogHandler$LogResult
+ch/njol/skript/expressions/ExprBurnCookTime.java
+ ch.njol.skript.expressions.ExprBurnCookTime
+ ch.njol.skript.expressions.ExprBurnCookTime$1
+ch/njol/skript/expressions/ExprIndices.java
+ ch.njol.skript.expressions.ExprIndices
+ch/njol/skript/classes/data/BukkitEventValues.java
+ ch.njol.skript.classes.data.BukkitEventValues
+ ch.njol.skript.classes.data.BukkitEventValues$1
+ ch.njol.skript.classes.data.BukkitEventValues$10
+ ch.njol.skript.classes.data.BukkitEventValues$100
+ ch.njol.skript.classes.data.BukkitEventValues$101
+ ch.njol.skript.classes.data.BukkitEventValues$102
+ ch.njol.skript.classes.data.BukkitEventValues$103
+ ch.njol.skript.classes.data.BukkitEventValues$104
+ ch.njol.skript.classes.data.BukkitEventValues$105
+ ch.njol.skript.classes.data.BukkitEventValues$106
+ ch.njol.skript.classes.data.BukkitEventValues$107
+ ch.njol.skript.classes.data.BukkitEventValues$108
+ ch.njol.skript.classes.data.BukkitEventValues$109
+ ch.njol.skript.classes.data.BukkitEventValues$11
+ ch.njol.skript.classes.data.BukkitEventValues$110
+ ch.njol.skript.classes.data.BukkitEventValues$111
+ ch.njol.skript.classes.data.BukkitEventValues$112
+ ch.njol.skript.classes.data.BukkitEventValues$113
+ ch.njol.skript.classes.data.BukkitEventValues$114
+ ch.njol.skript.classes.data.BukkitEventValues$115
+ ch.njol.skript.classes.data.BukkitEventValues$116
+ ch.njol.skript.classes.data.BukkitEventValues$117
+ ch.njol.skript.classes.data.BukkitEventValues$118
+ ch.njol.skript.classes.data.BukkitEventValues$119
+ ch.njol.skript.classes.data.BukkitEventValues$12
+ ch.njol.skript.classes.data.BukkitEventValues$120
+ ch.njol.skript.classes.data.BukkitEventValues$121
+ ch.njol.skript.classes.data.BukkitEventValues$122
+ ch.njol.skript.classes.data.BukkitEventValues$123
+ ch.njol.skript.classes.data.BukkitEventValues$124
+ ch.njol.skript.classes.data.BukkitEventValues$125
+ ch.njol.skript.classes.data.BukkitEventValues$126
+ ch.njol.skript.classes.data.BukkitEventValues$127
+ ch.njol.skript.classes.data.BukkitEventValues$128
+ ch.njol.skript.classes.data.BukkitEventValues$129
+ ch.njol.skript.classes.data.BukkitEventValues$13
+ ch.njol.skript.classes.data.BukkitEventValues$130
+ ch.njol.skript.classes.data.BukkitEventValues$131
+ ch.njol.skript.classes.data.BukkitEventValues$132
+ ch.njol.skript.classes.data.BukkitEventValues$133
+ ch.njol.skript.classes.data.BukkitEventValues$134
+ ch.njol.skript.classes.data.BukkitEventValues$135
+ ch.njol.skript.classes.data.BukkitEventValues$136
+ ch.njol.skript.classes.data.BukkitEventValues$137
+ ch.njol.skript.classes.data.BukkitEventValues$138
+ ch.njol.skript.classes.data.BukkitEventValues$139
+ ch.njol.skript.classes.data.BukkitEventValues$14
+ ch.njol.skript.classes.data.BukkitEventValues$140
+ ch.njol.skript.classes.data.BukkitEventValues$141
+ ch.njol.skript.classes.data.BukkitEventValues$15
+ ch.njol.skript.classes.data.BukkitEventValues$16
+ ch.njol.skript.classes.data.BukkitEventValues$17
+ ch.njol.skript.classes.data.BukkitEventValues$18
+ ch.njol.skript.classes.data.BukkitEventValues$19
+ ch.njol.skript.classes.data.BukkitEventValues$2
+ ch.njol.skript.classes.data.BukkitEventValues$20
+ ch.njol.skript.classes.data.BukkitEventValues$21
+ ch.njol.skript.classes.data.BukkitEventValues$22
+ ch.njol.skript.classes.data.BukkitEventValues$23
+ ch.njol.skript.classes.data.BukkitEventValues$24
+ ch.njol.skript.classes.data.BukkitEventValues$25
+ ch.njol.skript.classes.data.BukkitEventValues$26
+ ch.njol.skript.classes.data.BukkitEventValues$27
+ ch.njol.skript.classes.data.BukkitEventValues$28
+ ch.njol.skript.classes.data.BukkitEventValues$29
+ ch.njol.skript.classes.data.BukkitEventValues$3
+ ch.njol.skript.classes.data.BukkitEventValues$30
+ ch.njol.skript.classes.data.BukkitEventValues$31
+ ch.njol.skript.classes.data.BukkitEventValues$32
+ ch.njol.skript.classes.data.BukkitEventValues$33
+ ch.njol.skript.classes.data.BukkitEventValues$34
+ ch.njol.skript.classes.data.BukkitEventValues$35
+ ch.njol.skript.classes.data.BukkitEventValues$36
+ ch.njol.skript.classes.data.BukkitEventValues$37
+ ch.njol.skript.classes.data.BukkitEventValues$38
+ ch.njol.skript.classes.data.BukkitEventValues$39
+ ch.njol.skript.classes.data.BukkitEventValues$4
+ ch.njol.skript.classes.data.BukkitEventValues$40
+ ch.njol.skript.classes.data.BukkitEventValues$41
+ ch.njol.skript.classes.data.BukkitEventValues$42
+ ch.njol.skript.classes.data.BukkitEventValues$43
+ ch.njol.skript.classes.data.BukkitEventValues$44
+ ch.njol.skript.classes.data.BukkitEventValues$45
+ ch.njol.skript.classes.data.BukkitEventValues$46
+ ch.njol.skript.classes.data.BukkitEventValues$47
+ ch.njol.skript.classes.data.BukkitEventValues$48
+ ch.njol.skript.classes.data.BukkitEventValues$49
+ ch.njol.skript.classes.data.BukkitEventValues$5
+ ch.njol.skript.classes.data.BukkitEventValues$50
+ ch.njol.skript.classes.data.BukkitEventValues$51
+ ch.njol.skript.classes.data.BukkitEventValues$52
+ ch.njol.skript.classes.data.BukkitEventValues$53
+ ch.njol.skript.classes.data.BukkitEventValues$54
+ ch.njol.skript.classes.data.BukkitEventValues$55
+ ch.njol.skript.classes.data.BukkitEventValues$56
+ ch.njol.skript.classes.data.BukkitEventValues$57
+ ch.njol.skript.classes.data.BukkitEventValues$58
+ ch.njol.skript.classes.data.BukkitEventValues$59
+ ch.njol.skript.classes.data.BukkitEventValues$6
+ ch.njol.skript.classes.data.BukkitEventValues$60
+ ch.njol.skript.classes.data.BukkitEventValues$61
+ ch.njol.skript.classes.data.BukkitEventValues$62
+ ch.njol.skript.classes.data.BukkitEventValues$63
+ ch.njol.skript.classes.data.BukkitEventValues$64
+ ch.njol.skript.classes.data.BukkitEventValues$65
+ ch.njol.skript.classes.data.BukkitEventValues$66
+ ch.njol.skript.classes.data.BukkitEventValues$67
+ ch.njol.skript.classes.data.BukkitEventValues$68
+ ch.njol.skript.classes.data.BukkitEventValues$69
+ ch.njol.skript.classes.data.BukkitEventValues$7
+ ch.njol.skript.classes.data.BukkitEventValues$70
+ ch.njol.skript.classes.data.BukkitEventValues$71
+ ch.njol.skript.classes.data.BukkitEventValues$72
+ ch.njol.skript.classes.data.BukkitEventValues$73
+ ch.njol.skript.classes.data.BukkitEventValues$74
+ ch.njol.skript.classes.data.BukkitEventValues$75
+ ch.njol.skript.classes.data.BukkitEventValues$76
+ ch.njol.skript.classes.data.BukkitEventValues$77
+ ch.njol.skript.classes.data.BukkitEventValues$78
+ ch.njol.skript.classes.data.BukkitEventValues$79
+ ch.njol.skript.classes.data.BukkitEventValues$8
+ ch.njol.skript.classes.data.BukkitEventValues$80
+ ch.njol.skript.classes.data.BukkitEventValues$81
+ ch.njol.skript.classes.data.BukkitEventValues$82
+ ch.njol.skript.classes.data.BukkitEventValues$83
+ ch.njol.skript.classes.data.BukkitEventValues$84
+ ch.njol.skript.classes.data.BukkitEventValues$85
+ ch.njol.skript.classes.data.BukkitEventValues$86
+ ch.njol.skript.classes.data.BukkitEventValues$87
+ ch.njol.skript.classes.data.BukkitEventValues$88
+ ch.njol.skript.classes.data.BukkitEventValues$89
+ ch.njol.skript.classes.data.BukkitEventValues$9
+ ch.njol.skript.classes.data.BukkitEventValues$90
+ ch.njol.skript.classes.data.BukkitEventValues$91
+ ch.njol.skript.classes.data.BukkitEventValues$92
+ ch.njol.skript.classes.data.BukkitEventValues$93
+ ch.njol.skript.classes.data.BukkitEventValues$94
+ ch.njol.skript.classes.data.BukkitEventValues$95
+ ch.njol.skript.classes.data.BukkitEventValues$96
+ ch.njol.skript.classes.data.BukkitEventValues$97
+ ch.njol.skript.classes.data.BukkitEventValues$98
+ ch.njol.skript.classes.data.BukkitEventValues$99
+ch/njol/skript/config/SectionNode.java
+ ch.njol.skript.config.SectionNode
+ ch.njol.skript.config.SectionNode$1
+ ch.njol.skript.config.SectionNode$2
+ch/njol/skript/lang/util/SimpleExpression.java
+ ch.njol.skript.lang.util.SimpleExpression
+ch/njol/util/coll/iterator/ArrayIterator.java
+ ch.njol.util.coll.iterator.ArrayIterator
+ch/njol/skript/expressions/ExprSubstring.java
+ ch.njol.skript.expressions.ExprSubstring
+ch/njol/skript/expressions/ExprDamageCause.java
+ ch.njol.skript.expressions.ExprDamageCause
+ch/njol/skript/update/ReleaseChannel.java
+ ch.njol.skript.update.ReleaseChannel
+ch/njol/skript/expressions/ExprProtocolVersion.java
+ ch.njol.skript.expressions.ExprProtocolVersion
+ch/njol/skript/expressions/ExprChestInventory.java
+ ch.njol.skript.expressions.ExprChestInventory
+ch/njol/skript/lang/Expression.java
+ ch.njol.skript.lang.Expression
+ch/njol/skript/util/InventoryActions.java
+ ch.njol.skript.util.InventoryActions
+ch/njol/skript/events/bukkit/ExperienceSpawnEvent.java
+ ch.njol.skript.events.bukkit.ExperienceSpawnEvent
+ ch.njol.skript.events.bukkit.ExperienceSpawnEvent$1
+ ch.njol.skript.events.bukkit.ExperienceSpawnEvent$2
+ch/njol/skript/expressions/ExprAI.java
+ ch.njol.skript.expressions.ExprAI
+ch/njol/skript/expressions/ExprFilter.java
+ ch.njol.skript.expressions.ExprFilter
+ ch.njol.skript.expressions.ExprFilter$ExprInput
+ch/njol/skript/bukkitutil/ClickEventTracker.java
+ ch.njol.skript.bukkitutil.ClickEventTracker
+ ch.njol.skript.bukkitutil.ClickEventTracker$TrackedEvent
+ch/njol/skript/effects/EffEnchant.java
+ ch.njol.skript.effects.EffEnchant
+ch/njol/skript/expressions/ExprBiome.java
+ ch.njol.skript.expressions.ExprBiome
+ ch.njol.skript.expressions.ExprBiome$1
+ch/njol/yggdrasil/YggdrasilID.java
+ ch.njol.yggdrasil.YggdrasilID
+ch/njol/skript/effects/EffPlayerVisibility.java
+ ch.njol.skript.effects.EffPlayerVisibility
+ch/njol/skript/effects/EffResetTitle.java
+ ch.njol.skript.effects.EffResetTitle
+ch/njol/skript/expressions/ExprArmorSlot.java
+ ch.njol.skript.expressions.ExprArmorSlot
+ch/njol/skript/expressions/ExprCursorSlot.java
+ ch.njol.skript.expressions.ExprCursorSlot
+ch/njol/skript/lang/function/Function.java
+ ch.njol.skript.lang.function.Function
+ch/njol/skript/hooks/biomes/BiomeHook.java
+ ch.njol.skript.hooks.biomes.BiomeHook
+ch/njol/skript/effects/EffInvulnerability.java
+ ch.njol.skript.effects.EffInvulnerability
+ch/njol/skript/effects/EffStopServer.java
+ ch.njol.skript.effects.EffStopServer
+ch/njol/util/coll/CyclicList.java
+ ch.njol.util.coll.CyclicList
+ch/njol/util/package-info.java
+ ch.njol.util.package-info
+ch/njol/skript/entity/XpOrbData.java
+ ch.njol.skript.entity.XpOrbData
+ch/njol/skript/variables/package-info.java
+ ch.njol.skript.variables.package-info
+ch/njol/skript/effects/EffChange.java
+ ch.njol.skript.effects.EffChange
+ ch.njol.skript.effects.EffChange$1
+ch/njol/skript/lang/ParseContext.java
+ ch.njol.skript.lang.ParseContext
+ch/njol/skript/events/EvtAtTime.java
+ ch.njol.skript.events.EvtAtTime
+ ch.njol.skript.events.EvtAtTime$1
+ ch.njol.skript.events.EvtAtTime$EvtAtInfo
+ch/njol/yggdrasil/DefaultYggdrasilOutputStream.java
+ ch.njol.yggdrasil.DefaultYggdrasilOutputStream
+ ch.njol.yggdrasil.DefaultYggdrasilOutputStream$1
+ch/njol/skript/expressions/ExprAttacker.java
+ ch.njol.skript.expressions.ExprAttacker
+ch/njol/skript/conditions/CondLeashed.java
+ ch.njol.skript.conditions.CondLeashed
+ch/njol/skript/lang/util/ConvertedExpression.java
+ ch.njol.skript.lang.util.ConvertedExpression
+ ch.njol.skript.lang.util.ConvertedExpression$1
+ ch.njol.skript.lang.util.ConvertedExpression$2
+ch/njol/skript/effects/EffDrop.java
+ ch.njol.skript.effects.EffDrop
+ch/njol/skript/expressions/ExprDamagedItem.java
+ ch.njol.skript.expressions.ExprDamagedItem
+ch/njol/skript/variables/VariablesMap.java
+ ch.njol.skript.variables.VariablesMap
+ ch.njol.skript.variables.VariablesMap$1
+ch/njol/skript/update/NoUpdateChecker.java
+ ch.njol.skript.update.NoUpdateChecker
+ch/njol/skript/lang/TriggerItem.java
+ ch.njol.skript.lang.TriggerItem
+ch/njol/skript/hooks/regions/expressions/ExprRegion.java
+ ch.njol.skript.hooks.regions.expressions.ExprRegion
+ch/njol/skript/hooks/package-info.java
+ ch.njol.skript.hooks.package-info
+ch/njol/skript/hooks/chat/expressions/package-info.java
+ ch.njol.skript.hooks.chat.expressions.package-info
+ch/njol/skript/util/PersistentDataUtils.java
+ ch.njol.skript.util.PersistentDataUtils
+ch/njol/skript/hooks/permission/expressions/ExprGroup.java
+ ch.njol.skript.hooks.permission.expressions.ExprGroup
+ ch.njol.skript.hooks.permission.expressions.ExprGroup$1
+ch/njol/skript/aliases/AliasesProvider.java
+ ch.njol.skript.aliases.AliasesProvider
+ ch.njol.skript.aliases.AliasesProvider$AliasName
+ ch.njol.skript.aliases.AliasesProvider$Variation
+ ch.njol.skript.aliases.AliasesProvider$VariationGroup
+ch/njol/skript/bukkitutil/PassengerUtils.java
+ ch.njol.skript.bukkitutil.PassengerUtils
+ch/njol/skript/expressions/ExprTypeOf.java
+ ch.njol.skript.expressions.ExprTypeOf
+ch/njol/skript/localization/GeneralWords.java
+ ch.njol.skript.localization.GeneralWords
+ch/njol/skript/util/Time.java
+ ch.njol.skript.util.Time
+ch/njol/skript/classes/package-info.java
+ ch.njol.skript.classes.package-info
+ch/njol/skript/entity/MooshroomData.java
+ ch.njol.skript.entity.MooshroomData
+ch/njol/skript/util/EnchantmentType.java
+ ch.njol.skript.util.EnchantmentType
+ch/njol/skript/entity/ZombieVillagerData.java
+ ch.njol.skript.entity.ZombieVillagerData
+ch/njol/skript/util/WeatherType.java
+ ch.njol.skript.util.WeatherType
+ ch.njol.skript.util.WeatherType$1
+ch/njol/skript/entity/EntityType.java
+ ch.njol.skript.entity.EntityType
+ ch.njol.skript.entity.EntityType$1
+ ch.njol.skript.entity.EntityType$2
+ch/njol/skript/expressions/ExprWorld.java
+ ch.njol.skript.expressions.ExprWorld
+ ch.njol.skript.expressions.ExprWorld$1
+ch/njol/skript/expressions/ExprLevel.java
+ ch.njol.skript.expressions.ExprLevel
+ ch.njol.skript.expressions.ExprLevel$1
+ ch.njol.skript.expressions.ExprLevel$2
+ch/njol/skript/lang/util/ConvertedLiteral.java
+ ch.njol.skript.lang.util.ConvertedLiteral
+ ch.njol.skript.lang.util.ConvertedLiteral$1
+ch/njol/yggdrasil/package-info.java
+ ch.njol.yggdrasil.package-info
+ch/njol/skript/conditions/CondIsSwimming.java
+ ch.njol.skript.conditions.CondIsSwimming
+ch/njol/skript/config/validate/EnumEntryValidator.java
+ ch.njol.skript.config.validate.EnumEntryValidator
+ch/njol/skript/entity/EntityData.java
+ ch.njol.skript.entity.EntityData
+ ch.njol.skript.entity.EntityData$1
+ ch.njol.skript.entity.EntityData$2
+ ch.njol.skript.entity.EntityData$EntityDataInfo
+ch/njol/yggdrasil/Yggdrasil.java
+ ch.njol.yggdrasil.Yggdrasil
+ch/njol/skript/ScriptLoader.java
+ ch.njol.skript.ScriptLoader
+ ch.njol.skript.ScriptLoader$AsyncLoaderThread
+ ch.njol.skript.ScriptLoader$ParsedEventData
+ ch.njol.skript.ScriptLoader$ScriptInfo
+ch/njol/skript/expressions/ExprClientViewDistance.java
+ ch.njol.skript.expressions.ExprClientViewDistance
+ch/njol/skript/command/EffectCommandEvent.java
+ ch.njol.skript.command.EffectCommandEvent
+ch/njol/skript/localization/PluralizingArgsMessage.java
+ ch.njol.skript.localization.PluralizingArgsMessage
+ch/njol/skript/effects/EffExceptionDebug.java
+ ch.njol.skript.effects.EffExceptionDebug
+ch/njol/skript/effects/mirre/EffScriptOptionLoops.java
+ ch.njol.skript.effects.mirre.EffScriptOptionLoops
+ch/njol/skript/effects/EffColorItems.java
+ ch.njol.skript.effects.EffColorItems
+ ch.njol.skript.effects.EffColorItems$1
+ch/njol/util/NonNullPair.java
+ ch.njol.util.NonNullPair
+ch/njol/skript/command/CommandHelp.java
+ ch.njol.skript.command.CommandHelp
+ch/njol/util/OpenCloseable.java
+ ch.njol.util.OpenCloseable
+ ch.njol.util.OpenCloseable$1
+ ch.njol.util.OpenCloseable$2
+ch/njol/skript/entity/PlayerData.java
+ ch.njol.skript.entity.PlayerData
+ch/njol/skript/expressions/ExprScript.java
+ ch.njol.skript.expressions.ExprScript
+ch/njol/skript/hooks/chat/expressions/ExprPrefixSuffix.java
+ ch.njol.skript.hooks.chat.expressions.ExprPrefixSuffix
+ch/njol/skript/expressions/ExprAttacked.java
+ ch.njol.skript.expressions.ExprAttacked
+ch/njol/skript/expressions/ExprUnbreakable.java
+ ch.njol.skript.expressions.ExprUnbreakable
+ch/njol/skript/conditions/CondChance.java
+ ch.njol.skript.conditions.CondChance
+ch/njol/skript/aliases/MatchQuality.java
+ ch.njol.skript.aliases.MatchQuality
+ch/njol/skript/effects/EffReturn.java
+ ch.njol.skript.effects.EffReturn
+ch/njol/skript/expressions/ExprLocationVectorOffset.java
+ ch.njol.skript.expressions.ExprLocationVectorOffset
+ch/njol/skript/util/SoundUtils.java
+ ch.njol.skript.util.SoundUtils
+ch/njol/skript/expressions/ExprDamage.java
+ ch.njol.skript.expressions.ExprDamage
+ ch.njol.skript.expressions.ExprDamage$1
+ch/njol/skript/effects/EffPoison.java
+ ch.njol.skript.effects.EffPoison
+ch/njol/skript/lang/Debuggable.java
+ ch.njol.skript.lang.Debuggable
+ch/njol/skript/classes/YggdrasilSerializer.java
+ ch.njol.skript.classes.YggdrasilSerializer
+ch/njol/skript/expressions/ExprPotionEffects.java
+ ch.njol.skript.expressions.ExprPotionEffects
+ ch.njol.skript.expressions.ExprPotionEffects$1
+ch/njol/skript/expressions/ExprVectorBetweenLocations.java
+ ch.njol.skript.expressions.ExprVectorBetweenLocations
+ch/njol/skript/conditions/CondIsInvulnerable.java
+ ch.njol.skript.conditions.CondIsInvulnerable
+ch/njol/skript/lang/Loop.java
+ ch.njol.skript.lang.Loop
+ch/njol/skript/expressions/ExprOfflinePlayers.java
+ ch.njol.skript.expressions.ExprOfflinePlayers
+ch/njol/skript/conditions/CondIsPoisoned.java
+ ch.njol.skript.conditions.CondIsPoisoned
+ch/njol/skript/aliases/ItemType.java
+ ch.njol.skript.aliases.ItemType
+ ch.njol.skript.aliases.ItemType$1
+ ch.njol.skript.aliases.ItemType$2
+ ch.njol.skript.aliases.ItemType$3
+ ch.njol.skript.aliases.ItemType$4
+ch/njol/skript/log/RedirectingLogHandler.java
+ ch.njol.skript.log.RedirectingLogHandler
+ch/njol/skript/expressions/ExprRawName.java
+ ch.njol.skript.expressions.ExprRawName
+ch/njol/skript/doc/Since.java
+ ch.njol.skript.doc.Since
+ch/njol/skript/expressions/arithmetic/Operator.java
+ ch.njol.skript.expressions.arithmetic.Operator
+ ch.njol.skript.expressions.arithmetic.Operator$1
+ ch.njol.skript.expressions.arithmetic.Operator$2
+ ch.njol.skript.expressions.arithmetic.Operator$3
+ ch.njol.skript.expressions.arithmetic.Operator$4
+ ch.njol.skript.expressions.arithmetic.Operator$5
+ch/njol/util/NotifyingReference.java
+ ch.njol.util.NotifyingReference
+ch/njol/skript/aliases/ItemData.java
+ ch.njol.skript.aliases.ItemData
+ ch.njol.skript.aliases.ItemData$OldItemData
+ch/njol/skript/effects/EffHidePlayerFromServerList.java
+ ch.njol.skript.effects.EffHidePlayerFromServerList
+ch/njol/skript/effects/EffActionBar.java
+ ch.njol.skript.effects.EffActionBar
+ch/njol/skript/expressions/ExprSpawnReason.java
+ ch.njol.skript.expressions.ExprSpawnReason
+ch/njol/skript/expressions/ExprEventExpression.java
+ ch.njol.skript.expressions.ExprEventExpression
+ch/njol/skript/conditions/CondIsBurning.java
+ ch.njol.skript.conditions.CondIsBurning
+ch/njol/skript/events/EvtEntityBlockChange.java
+ ch.njol.skript.events.EvtEntityBlockChange
+ ch.njol.skript.events.EvtEntityBlockChange$ChangeEvent
+ ch.njol.skript.events.EvtEntityBlockChange$ChangeEvent$1
+ ch.njol.skript.events.EvtEntityBlockChange$ChangeEvent$2
+ ch.njol.skript.events.EvtEntityBlockChange$ChangeEvent$3
+ ch.njol.skript.events.EvtEntityBlockChange$ChangeEvent$4
+ ch.njol.skript.events.EvtEntityBlockChange$ChangeEvent$5
+ ch.njol.skript.events.EvtEntityBlockChange$ChangeEvent$6
+ch/njol/skript/expressions/ExprMetadata.java
+ ch.njol.skript.expressions.ExprMetadata
+ ch.njol.skript.expressions.ExprMetadata$1
+ch/njol/skript/localization/ArgsMessage.java
+ ch.njol.skript.localization.ArgsMessage
+ch/njol/skript/expressions/ExprRandom.java
+ ch.njol.skript.expressions.ExprRandom
+ch/njol/skript/PatcherTool.java
+ ch.njol.skript.PatcherTool
+ ch.njol.skript.PatcherTool$Option
+ch/njol/skript/expressions/ExprDrops.java
+ ch.njol.skript.expressions.ExprDrops
+ ch.njol.skript.expressions.ExprDrops$1
+ch/njol/skript/tests/runner/package-info.java
+ ch.njol.skript.tests.runner.package-info
+ch/njol/skript/variables/SerializedVariable.java
+ ch.njol.skript.variables.SerializedVariable
+ ch.njol.skript.variables.SerializedVariable$Value
+ch/njol/skript/expressions/ExprChatRecipients.java
+ ch.njol.skript.expressions.ExprChatRecipients
+ ch.njol.skript.expressions.ExprChatRecipients$1
+ch/njol/skript/conditions/CondIsInteractable.java
+ ch.njol.skript.conditions.CondIsInteractable
+ch/njol/skript/effects/EffRespawn.java
+ ch.njol.skript.effects.EffRespawn
+ ch.njol.skript.effects.EffRespawn$1
+ch/njol/skript/expressions/ExprHotbarButton.java
+ ch.njol.skript.expressions.ExprHotbarButton
+ch/njol/util/coll/iterator/StoppableIterator.java
+ ch.njol.util.coll.iterator.StoppableIterator
+ch/njol/skript/expressions/ExprMessage.java
+ ch.njol.skript.expressions.ExprMessage
+ ch.njol.skript.expressions.ExprMessage$MessageType
+ ch.njol.skript.expressions.ExprMessage$MessageType$1
+ ch.njol.skript.expressions.ExprMessage$MessageType$2
+ ch.njol.skript.expressions.ExprMessage$MessageType$3
+ ch.njol.skript.expressions.ExprMessage$MessageType$4
+ch/njol/skript/effects/EffCancelEvent.java
+ ch.njol.skript.effects.EffCancelEvent
+ch/njol/skript/hooks/economy/classes/package-info.java
+ ch.njol.skript.hooks.economy.classes.package-info
+ch/njol/skript/util/ExceptionUtils.java
+ ch.njol.skript.util.ExceptionUtils
+ch/njol/skript/expressions/ExprDirection.java
+ ch.njol.skript.expressions.ExprDirection
+ch/njol/skript/expressions/ExprDifference.java
+ ch.njol.skript.expressions.ExprDifference
+ch/njol/skript/expressions/ExprLocationOf.java
+ ch.njol.skript.expressions.ExprLocationOf
+ch/njol/skript/effects/EffKick.java
+ ch.njol.skript.effects.EffKick
+ch/njol/skript/expressions/ExprLore.java
+ ch.njol.skript.expressions.ExprLore
+ ch.njol.skript.expressions.ExprLore$1
+ch/njol/skript/expressions/ExprXOf.java
+ ch.njol.skript.expressions.ExprXOf
+ ch.njol.skript.expressions.ExprXOf$1
+ch/njol/util/CaseInsensitiveString.java
+ ch.njol.util.CaseInsensitiveString
+ch/njol/util/Setter.java
+ ch.njol.util.Setter
+ch/njol/util/StringUtils.java
+ ch.njol.util.StringUtils
+ch/njol/skript/registrations/DefaultClasses.java
+ ch.njol.skript.registrations.DefaultClasses
+ch/njol/skript/conditions/CondCompare.java
+ ch.njol.skript.conditions.CondCompare
+ch/njol/skript/lang/TriggerSection.java
+ ch.njol.skript.lang.TriggerSection
+ch/njol/skript/entity/BeeData.java
+ ch.njol.skript.entity.BeeData
+ch/njol/skript/expressions/ExprFoodLevel.java
+ ch.njol.skript.expressions.ExprFoodLevel
+ ch.njol.skript.expressions.ExprFoodLevel$1
+ ch.njol.skript.expressions.ExprFoodLevel$2
+ch/njol/skript/expressions/ExprScoreboardTags.java
+ ch.njol.skript.expressions.ExprScoreboardTags
+ ch.njol.skript.expressions.ExprScoreboardTags$1
+ch/njol/skript/conditions/CondResourcePack.java
+ ch.njol.skript.conditions.CondResourcePack
+ch/njol/yggdrasil/FieldHandler.java
+ ch.njol.yggdrasil.FieldHandler
+ch/njol/skript/conditions/CondIsOfType.java
+ ch.njol.skript.conditions.CondIsOfType
+ch/njol/skript/config/InvalidNode.java
+ ch.njol.skript.config.InvalidNode
+ch/njol/skript/localization/LanguageChangeListener.java
+ ch.njol.skript.localization.LanguageChangeListener
+ch/njol/skript/lang/function/EffFunctionCall.java
+ ch.njol.skript.lang.function.EffFunctionCall
+ch/njol/skript/lang/util/ContainerExpression.java
+ ch.njol.skript.lang.util.ContainerExpression
+ ch.njol.skript.lang.util.ContainerExpression$1
+ch/njol/skript/hooks/economy/expressions/package-info.java
+ ch.njol.skript.hooks.economy.expressions.package-info
+ch/njol/skript/update/GithubChecker.java
+ ch.njol.skript.update.GithubChecker
+ ch.njol.skript.update.GithubChecker$1
+ ch.njol.skript.update.GithubChecker$ResponseEntry
+ ch.njol.skript.update.GithubChecker$ResponseEntry$AssetsEntry
+ ch.njol.skript.update.GithubChecker$ResponseEntry$Author
+ch/njol/skript/expressions/ExprCommandSender.java
+ ch.njol.skript.expressions.ExprCommandSender
+ch/njol/skript/expressions/ExprOffTool.java
+ ch.njol.skript.expressions.ExprOffTool
+ ch.njol.skript.expressions.ExprOffTool$1
+ ch.njol.skript.expressions.ExprOffTool$1$1
+ ch.njol.skript.expressions.ExprOffTool$1$2
+ch/njol/skript/config/validate/EntryValidator.java
+ ch.njol.skript.config.validate.EntryValidator
+ch/njol/skript/util/BlockLineIterator.java
+ ch.njol.skript.util.BlockLineIterator
+ ch.njol.skript.util.BlockLineIterator$1
+ ch.njol.skript.util.BlockLineIterator$2
+ch/njol/skript/localization/Adjective.java
+ ch.njol.skript.localization.Adjective
+ch/njol/skript/expressions/ExprGameMode.java
+ ch.njol.skript.expressions.ExprGameMode
+ ch.njol.skript.expressions.ExprGameMode$1
+ch/njol/skript/expressions/ExprPlain.java
+ ch.njol.skript.expressions.ExprPlain
+ch/njol/skript/expressions/ExprWorlds.java
+ ch.njol.skript.expressions.ExprWorlds
+ch/njol/skript/bukkitutil/package-info.java
+ ch.njol.skript.bukkitutil.package-info
+ch/njol/skript/expressions/ExprHoverList.java
+ ch.njol.skript.expressions.ExprHoverList
+ ch.njol.skript.expressions.ExprHoverList$1
+ch/njol/skript/expressions/ExprItemsIn.java
+ ch.njol.skript.expressions.ExprItemsIn
+ ch.njol.skript.expressions.ExprItemsIn$1
+ch/njol/skript/expressions/ExprLastDamage.java
+ ch.njol.skript.expressions.ExprLastDamage
+ ch.njol.skript.expressions.ExprLastDamage$1
+ch/njol/skript/classes/data/DefaultChangers.java
+ ch.njol.skript.classes.data.DefaultChangers
+ ch.njol.skript.classes.data.DefaultChangers$1
+ ch.njol.skript.classes.data.DefaultChangers$2
+ ch.njol.skript.classes.data.DefaultChangers$3
+ ch.njol.skript.classes.data.DefaultChangers$4
+ ch.njol.skript.classes.data.DefaultChangers$5
+ ch.njol.skript.classes.data.DefaultChangers$6
+ ch.njol.skript.classes.data.DefaultChangers$7
+ch/njol/skript/effects/package-info.java
+ ch.njol.skript.effects.package-info
+ch/njol/skript/events/bukkit/package-info.java
+ ch.njol.skript.events.bukkit.package-info
+ch/njol/util/coll/iterator/EnumerationIterable.java
+ ch.njol.util.coll.iterator.EnumerationIterable
+ ch.njol.util.coll.iterator.EnumerationIterable$1
+ch/njol/skript/registrations/Comparators.java
+ ch.njol.skript.registrations.Comparators
+ ch.njol.skript.registrations.Comparators$1
+ ch.njol.skript.registrations.Comparators$ConvertedComparator
+ch/njol/skript/entity/CatData.java
+ ch.njol.skript.entity.CatData
+ch/njol/skript/lang/Literal.java
+ ch.njol.skript.lang.Literal
+ch/njol/skript/classes/ClassInfo.java
+ ch.njol.skript.classes.ClassInfo
+ch/njol/skript/expressions/ExprBookPages.java
+ ch.njol.skript.expressions.ExprBookPages
+ch/njol/skript/tests/platform/Environment.java
+ ch.njol.skript.tests.platform.Environment
+ ch.njol.skript.tests.platform.Environment$1
+ ch.njol.skript.tests.platform.Environment$Resource
+ch/njol/skript/util/PotionEffectUtils.java
+ ch.njol.skript.util.PotionEffectUtils
+ ch.njol.skript.util.PotionEffectUtils$1
+ch/njol/skript/hooks/regions/expressions/ExprBlocksInRegion.java
+ ch.njol.skript.hooks.regions.expressions.ExprBlocksInRegion
+ ch.njol.skript.hooks.regions.expressions.ExprBlocksInRegion$1
+ch/njol/yggdrasil/PseudoEnum.java
+ ch.njol.yggdrasil.PseudoEnum
+ ch.njol.yggdrasil.PseudoEnum$Info
+ch/njol/skript/expressions/ExprMOTD.java
+ ch.njol.skript.expressions.ExprMOTD
+ ch.njol.skript.expressions.ExprMOTD$1
+ch/njol/skript/conditions/CondHasCustomModelData.java
+ ch.njol.skript.conditions.CondHasCustomModelData
+ch/njol/skript/util/LiteralUtils.java
+ ch.njol.skript.util.LiteralUtils
+ch/njol/skript/update/UpdateManifest.java
+ ch.njol.skript.update.UpdateManifest
+ch/njol/util/coll/iterator/ListRangeIterator.java
+ ch.njol.util.coll.iterator.ListRangeIterator
+ch/njol/skript/expressions/ExprTime.java
+ ch.njol.skript.expressions.ExprTime
+ ch.njol.skript.expressions.ExprTime$1
+ ch.njol.skript.expressions.ExprTime$2
+ch/njol/skript/lang/Unit.java
+ ch.njol.skript.lang.Unit
+ch/njol/skript/lang/Conditional.java
+ ch.njol.skript.lang.Conditional
+ ch.njol.skript.lang.Conditional$1
+ch/njol/skript/events/EvtLevel.java
+ ch.njol.skript.events.EvtLevel
+ch/njol/skript/events/bukkit/PreScriptLoadEvent.java
+ ch.njol.skript.events.bukkit.PreScriptLoadEvent
+ch/njol/skript/expressions/ExprParse.java
+ ch.njol.skript.expressions.ExprParse
+ch/njol/skript/config/EntryNode.java
+ ch.njol.skript.config.EntryNode
+ch/njol/skript/expressions/ExprInventoryInfo.java
+ ch.njol.skript.expressions.ExprInventoryInfo
+ch/njol/skript/classes/VectorArithmethic.java
+ ch.njol.skript.classes.VectorArithmethic
+ch/njol/skript/expressions/ExprVectorFromYawAndPitch.java
+ ch.njol.skript.expressions.ExprVectorFromYawAndPitch
+ch/njol/skript/expressions/ExprExperience.java
+ ch.njol.skript.expressions.ExprExperience
+ ch.njol.skript.expressions.ExprExperience$1
+ch/njol/util/Predicate.java
+ ch.njol.util.Predicate
+ch/njol/skript/util/BlockStateBlock.java
+ ch.njol.skript.util.BlockStateBlock
+ ch.njol.skript.util.BlockStateBlock$1
+ ch.njol.skript.util.BlockStateBlock$2
+ ch.njol.skript.util.BlockStateBlock$3
+ ch.njol.skript.util.BlockStateBlock$4
+ ch.njol.skript.util.BlockStateBlock$5
+ ch.njol.skript.util.BlockStateBlock$6
+ ch.njol.skript.util.BlockStateBlock$7
+ch/njol/skript/doc/NoDoc.java
+ ch.njol.skript.doc.NoDoc
+ch/njol/skript/expressions/ExprTemperature.java
+ ch.njol.skript.expressions.ExprTemperature
+ch/njol/skript/expressions/ExprTimeState.java
+ ch.njol.skript.expressions.ExprTimeState
+ch/njol/util/Callback.java
+ ch.njol.util.Callback
+ch/njol/skript/lang/util/SimpleLiteral.java
+ ch.njol.skript.lang.util.SimpleLiteral
+ ch.njol.skript.lang.util.SimpleLiteral$1
+ch/njol/skript/classes/data/BukkitClasses.java
+ ch.njol.skript.classes.data.BukkitClasses
+ ch.njol.skript.classes.data.BukkitClasses$1
+ ch.njol.skript.classes.data.BukkitClasses$10
+ ch.njol.skript.classes.data.BukkitClasses$11
+ ch.njol.skript.classes.data.BukkitClasses$12
+ ch.njol.skript.classes.data.BukkitClasses$13
+ ch.njol.skript.classes.data.BukkitClasses$14
+ ch.njol.skript.classes.data.BukkitClasses$15
+ ch.njol.skript.classes.data.BukkitClasses$16
+ ch.njol.skript.classes.data.BukkitClasses$17
+ ch.njol.skript.classes.data.BukkitClasses$18
+ ch.njol.skript.classes.data.BukkitClasses$19
+ ch.njol.skript.classes.data.BukkitClasses$2
+ ch.njol.skript.classes.data.BukkitClasses$20
+ ch.njol.skript.classes.data.BukkitClasses$21
+ ch.njol.skript.classes.data.BukkitClasses$22
+ ch.njol.skript.classes.data.BukkitClasses$23
+ ch.njol.skript.classes.data.BukkitClasses$24
+ ch.njol.skript.classes.data.BukkitClasses$25
+ ch.njol.skript.classes.data.BukkitClasses$26
+ ch.njol.skript.classes.data.BukkitClasses$27
+ ch.njol.skript.classes.data.BukkitClasses$28
+ ch.njol.skript.classes.data.BukkitClasses$29
+ ch.njol.skript.classes.data.BukkitClasses$3
+ ch.njol.skript.classes.data.BukkitClasses$30
+ ch.njol.skript.classes.data.BukkitClasses$31
+ ch.njol.skript.classes.data.BukkitClasses$32
+ ch.njol.skript.classes.data.BukkitClasses$33
+ ch.njol.skript.classes.data.BukkitClasses$34
+ ch.njol.skript.classes.data.BukkitClasses$35
+ ch.njol.skript.classes.data.BukkitClasses$36
+ ch.njol.skript.classes.data.BukkitClasses$37
+ ch.njol.skript.classes.data.BukkitClasses$38
+ ch.njol.skript.classes.data.BukkitClasses$39
+ ch.njol.skript.classes.data.BukkitClasses$4
+ ch.njol.skript.classes.data.BukkitClasses$40
+ ch.njol.skript.classes.data.BukkitClasses$41
+ ch.njol.skript.classes.data.BukkitClasses$42
+ ch.njol.skript.classes.data.BukkitClasses$43
+ ch.njol.skript.classes.data.BukkitClasses$44
+ ch.njol.skript.classes.data.BukkitClasses$45
+ ch.njol.skript.classes.data.BukkitClasses$46
+ ch.njol.skript.classes.data.BukkitClasses$47
+ ch.njol.skript.classes.data.BukkitClasses$48
+ ch.njol.skript.classes.data.BukkitClasses$5
+ ch.njol.skript.classes.data.BukkitClasses$6
+ ch.njol.skript.classes.data.BukkitClasses$7
+ ch.njol.skript.classes.data.BukkitClasses$8
+ ch.njol.skript.classes.data.BukkitClasses$9
+ch/njol/skript/expressions/ExprBookAuthor.java
+ ch.njol.skript.expressions.ExprBookAuthor
+ch/njol/skript/conditions/CondIsAlive.java
+ ch.njol.skript.conditions.CondIsAlive
+ch/njol/skript/variables/VariablesStorage.java
+ ch.njol.skript.variables.VariablesStorage
+ ch.njol.skript.variables.VariablesStorage$1
+ ch.njol.skript.variables.VariablesStorage$2
+ch/njol/skript/config/validate/package-info.java
+ ch.njol.skript.config.validate.package-info
+ch/njol/skript/expressions/ExprAmount.java
+ ch.njol.skript.expressions.ExprAmount
+ch/njol/skript/expressions/ExprVectorOfLocation.java
+ ch.njol.skript.expressions.ExprVectorOfLocation
+ch/njol/skript/bukkitutil/block/MagicBlockCompat.java
+ ch.njol.skript.bukkitutil.block.MagicBlockCompat
+ ch.njol.skript.bukkitutil.block.MagicBlockCompat$MagicBlockSetter
+ ch.njol.skript.bukkitutil.block.MagicBlockCompat$MagicBlockValues
+ch/njol/skript/conditions/CondIsSlimeChunk.java
+ ch.njol.skript.conditions.CondIsSlimeChunk
+ch/njol/skript/config/validate/NodeValidator.java
+ ch.njol.skript.config.validate.NodeValidator
+ch/njol/skript/expressions/ExprVectorNormalize.java
+ ch.njol.skript.expressions.ExprVectorNormalize
+ch/njol/skript/conditions/CondWeather.java
+ ch.njol.skript.conditions.CondWeather
+ch/njol/skript/expressions/ExprNoDamageTicks.java
+ ch.njol.skript.expressions.ExprNoDamageTicks
+ ch.njol.skript.expressions.ExprNoDamageTicks$1
+ch/njol/skript/effects/EffPvP.java
+ ch.njol.skript.effects.EffPvP
+ch/njol/skript/expressions/ExprHighestSolidBlock.java
+ ch.njol.skript.expressions.ExprHighestSolidBlock
+ch/njol/skript/expressions/ExprRound.java
+ ch.njol.skript.expressions.ExprRound
+ ch.njol.skript.expressions.ExprRound$1
+ch/njol/skript/lang/ExpressionType.java
+ ch.njol.skript.lang.ExpressionType
+ch/njol/skript/classes/Changer.java
+ ch.njol.skript.classes.Changer
+ ch.njol.skript.classes.Changer$ChangeMode
+ ch.njol.skript.classes.Changer$ChangerUtils
+ch/njol/skript/events/EvtPeriodical.java
+ ch.njol.skript.events.EvtPeriodical
+ ch.njol.skript.events.EvtPeriodical$1
+ ch.njol.skript.events.EvtPeriodical$2
+ch/njol/skript/conditions/package-info.java
+ ch.njol.skript.conditions.package-info
+ch/njol/skript/conditions/CondIgnitionProcess.java
+ ch.njol.skript.conditions.CondIgnitionProcess
+ch/njol/skript/doc/Description.java
+ ch.njol.skript.doc.Description
+ch/njol/skript/expressions/ExprLastAttacker.java
+ ch.njol.skript.expressions.ExprLastAttacker
+ch/njol/skript/expressions/ExprSeed.java
+ ch.njol.skript.expressions.ExprSeed
+ ch.njol.skript.expressions.ExprSeed$1
+ch/njol/skript/effects/EffSpawn.java
+ ch.njol.skript.effects.EffSpawn
+ch/njol/skript/effects/EffForceAttack.java
+ ch.njol.skript.effects.EffForceAttack
+ch/njol/skript/hooks/regions/classes/package-info.java
+ ch.njol.skript.hooks.regions.classes.package-info
+ch/njol/skript/util/chat/ChatMessages.java
+ ch.njol.skript.util.chat.ChatMessages
+ ch.njol.skript.util.chat.ChatMessages$1
+ ch.njol.skript.util.chat.ChatMessages$ComponentList
+ch/njol/skript/expressions/base/package-info.java
+ ch.njol.skript.expressions.base.package-info
+ch/njol/skript/expressions/ExprEntity.java
+ ch.njol.skript.expressions.ExprEntity
+ch/njol/skript/util/chat/package-info.java
+ ch.njol.skript.util.chat.package-info
+ch/njol/yggdrasil/util/JREFieldHandler.java
+ ch.njol.yggdrasil.util.JREFieldHandler
+ch/njol/skript/events/EvtWeatherChange.java
+ ch.njol.skript.events.EvtWeatherChange
+ ch.njol.skript.events.EvtWeatherChange$1
+ch/njol/skript/conditions/CondIsSilent.java
+ ch.njol.skript.conditions.CondIsSilent
+ch/njol/skript/conditions/CondCancelled.java
+ ch.njol.skript.conditions.CondCancelled
+ch/njol/skript/expressions/ExprVectorSquaredLength.java
+ ch.njol.skript.expressions.ExprVectorSquaredLength
+ch/njol/skript/conditions/CondIsEmpty.java
+ ch.njol.skript.conditions.CondIsEmpty
+ch/njol/util/NullableChecker.java
+ ch.njol.util.NullableChecker
+ ch.njol.util.NullableChecker$1
+ch/njol/skript/expressions/ExprBlock.java
+ ch.njol.skript.expressions.ExprBlock
+ ch.njol.skript.expressions.ExprBlock$1
+ch/njol/skript/entity/SimpleEntityData.java
+ ch.njol.skript.entity.SimpleEntityData
+ ch.njol.skript.entity.SimpleEntityData$SimpleEntityDataInfo
+ch/njol/skript/tests/runner/TestMode.java
+ ch.njol.skript.tests.runner.TestMode
+ch/njol/skript/localization/Message.java
+ ch.njol.skript.localization.Message
+ ch.njol.skript.localization.Message$1
+ch/njol/skript/conditions/CondIsFlying.java
+ ch.njol.skript.conditions.CondIsFlying
+ch/njol/skript/expressions/arithmetic/ArithmeticGettable.java
+ ch.njol.skript.expressions.arithmetic.ArithmeticGettable
+ch/njol/skript/classes/data/JavaClasses.java
+ ch.njol.skript.classes.data.JavaClasses
+ ch.njol.skript.classes.data.JavaClasses$1
+ ch.njol.skript.classes.data.JavaClasses$10
+ ch.njol.skript.classes.data.JavaClasses$11
+ ch.njol.skript.classes.data.JavaClasses$12
+ ch.njol.skript.classes.data.JavaClasses$13
+ ch.njol.skript.classes.data.JavaClasses$14
+ ch.njol.skript.classes.data.JavaClasses$15
+ ch.njol.skript.classes.data.JavaClasses$16
+ ch.njol.skript.classes.data.JavaClasses$17
+ ch.njol.skript.classes.data.JavaClasses$18
+ ch.njol.skript.classes.data.JavaClasses$19
+ ch.njol.skript.classes.data.JavaClasses$2
+ ch.njol.skript.classes.data.JavaClasses$3
+ ch.njol.skript.classes.data.JavaClasses$4
+ ch.njol.skript.classes.data.JavaClasses$5
+ ch.njol.skript.classes.data.JavaClasses$6
+ ch.njol.skript.classes.data.JavaClasses$7
+ ch.njol.skript.classes.data.JavaClasses$8
+ ch.njol.skript.classes.data.JavaClasses$9
+ch/njol/skript/log/LogEntry.java
+ ch.njol.skript.log.LogEntry
+ch/njol/util/coll/iterator/CheckedIterator.java
+ ch.njol.util.coll.iterator.CheckedIterator
+ch/njol/skript/timings/SkriptTimings.java
+ ch.njol.skript.timings.SkriptTimings
+ch/njol/skript/expressions/ExprName.java
+ ch.njol.skript.expressions.ExprName
+ch/njol/skript/lang/UnparsedLiteral.java
+ ch.njol.skript.lang.UnparsedLiteral
+ch/njol/util/coll/iterator/EmptyIterator.java
+ ch.njol.util.coll.iterator.EmptyIterator
+ch/njol/skript/expressions/ExprEnchantmentBonus.java
+ ch.njol.skript.expressions.ExprEnchantmentBonus
+ch/njol/skript/SkriptAddon.java
+ ch.njol.skript.SkriptAddon
+ch/njol/skript/events/EvtEntityTarget.java
+ ch.njol.skript.events.EvtEntityTarget
+ch/njol/skript/util/visual/VisualEffects.java
+ ch.njol.skript.util.visual.VisualEffects
+ch/njol/skript/config/NodeMap.java
+ ch.njol.skript.config.NodeMap
+ch/njol/util/EnumTypeAdapter.java
+ ch.njol.util.EnumTypeAdapter
+ ch.njol.util.EnumTypeAdapter$1
+ch/njol/skript/conditions/CondProjectileCanBounce.java
+ ch.njol.skript.conditions.CondProjectileCanBounce
+ch/njol/skript/ServerPlatform.java
+ ch.njol.skript.ServerPlatform
+ch/njol/skript/log/BlockingLogHandler.java
+ ch.njol.skript.log.BlockingLogHandler
+ch/njol/skript/expressions/ExprRedstoneBlockPower.java
+ ch.njol.skript.expressions.ExprRedstoneBlockPower
+ch/njol/skript/conditions/CondHasRelationalVariable.java
+ ch.njol.skript.conditions.CondHasRelationalVariable
+ch/njol/skript/expressions/ExprAbsorbedBlocks.java
+ ch.njol.skript.expressions.ExprAbsorbedBlocks
+ch/njol/skript/tests/runner/CondMinecraftVersion.java
+ ch.njol.skript.tests.runner.CondMinecraftVersion
+ch/njol/skript/expressions/ExprYawPitch.java
+ ch.njol.skript.expressions.ExprYawPitch
+ ch.njol.skript.expressions.ExprYawPitch$1
+ch/njol/skript/expressions/ExprFallDistance.java
+ ch.njol.skript.expressions.ExprFallDistance
+ ch.njol.skript.expressions.ExprFallDistance$1
+ch/njol/skript/effects/EffIncendiary.java
+ ch.njol.skript.effects.EffIncendiary
+ch/njol/skript/events/bukkit/ScheduledNoWorldEvent.java
+ ch.njol.skript.events.bukkit.ScheduledNoWorldEvent
+ch/njol/skript/expressions/ExprEventCancelled.java
+ ch.njol.skript.expressions.ExprEventCancelled
+ ch.njol.skript.expressions.ExprEventCancelled$1
+ch/njol/skript/expressions/ExprIdOf.java
+ ch.njol.skript.expressions.ExprIdOf
+ ch.njol.skript.expressions.ExprIdOf$1
+ ch.njol.skript.expressions.ExprIdOf$2
+ch/njol/skript/expressions/ExprVectorLength.java
+ ch.njol.skript.expressions.ExprVectorLength
+ ch.njol.skript.expressions.ExprVectorLength$1
+ch/njol/skript/effects/EffPlayerInfoVisibility.java
+ ch.njol.skript.effects.EffPlayerInfoVisibility
+ch/njol/skript/expressions/ExprSpeed.java
+ ch.njol.skript.expressions.ExprSpeed
+ ch.njol.skript.expressions.ExprSpeed$1
+ch/njol/skript/timings/package-info.java
+ ch.njol.skript.timings.package-info
+ch/njol/skript/lang/ExpressionInfo.java
+ ch.njol.skript.lang.ExpressionInfo
+ch/njol/yggdrasil/util/package-info.java
+ ch.njol.yggdrasil.util.package-info
+ch/njol/skript/util/chat/SkriptChatCode.java
+ ch.njol.skript.util.chat.SkriptChatCode
+ ch.njol.skript.util.chat.SkriptChatCode$1
+ ch.njol.skript.util.chat.SkriptChatCode$10
+ ch.njol.skript.util.chat.SkriptChatCode$11
+ ch.njol.skript.util.chat.SkriptChatCode$12
+ ch.njol.skript.util.chat.SkriptChatCode$13
+ ch.njol.skript.util.chat.SkriptChatCode$2
+ ch.njol.skript.util.chat.SkriptChatCode$3
+ ch.njol.skript.util.chat.SkriptChatCode$4
+ ch.njol.skript.util.chat.SkriptChatCode$5
+ ch.njol.skript.util.chat.SkriptChatCode$6
+ ch.njol.skript.util.chat.SkriptChatCode$7
+ ch.njol.skript.util.chat.SkriptChatCode$8
+ ch.njol.skript.util.chat.SkriptChatCode$9
+ch/njol/skript/lang/util/SimpleEvent.java
+ ch.njol.skript.lang.util.SimpleEvent
+ch/njol/skript/effects/EffScriptFile.java
+ ch.njol.skript.effects.EffScriptFile
+ch/njol/skript/expressions/ExprTarget.java
+ ch.njol.skript.expressions.ExprTarget
+ ch.njol.skript.expressions.ExprTarget$1
+ch/njol/skript/events/EvtGrow.java
+ ch.njol.skript.events.EvtGrow
+ ch.njol.skript.events.EvtGrow$1
+ ch.njol.skript.events.EvtGrow$2
+ch/njol/skript/expressions/ExprUnixTicks.java
+ ch.njol.skript.expressions.ExprUnixTicks
+ch/njol/skript/hooks/regions/package-info.java
+ ch.njol.skript.hooks.regions.package-info
+ch/njol/skript/util/Timeperiod.java
+ ch.njol.skript.util.Timeperiod
+ch/njol/yggdrasil/YggdrasilException.java
+ ch.njol.yggdrasil.YggdrasilException
+ch/njol/skript/expressions/ExprNumberOfCharacters.java
+ ch.njol.skript.expressions.ExprNumberOfCharacters
+ch/njol/skript/events/EvtPressurePlate.java
+ ch.njol.skript.events.EvtPressurePlate
+ch/njol/skript/classes/data/DefaultFunctions.java
+ ch.njol.skript.classes.data.DefaultFunctions
+ ch.njol.skript.classes.data.DefaultFunctions$1
+ ch.njol.skript.classes.data.DefaultFunctions$10
+ ch.njol.skript.classes.data.DefaultFunctions$11
+ ch.njol.skript.classes.data.DefaultFunctions$12
+ ch.njol.skript.classes.data.DefaultFunctions$13
+ ch.njol.skript.classes.data.DefaultFunctions$14
+ ch.njol.skript.classes.data.DefaultFunctions$15
+ ch.njol.skript.classes.data.DefaultFunctions$16
+ ch.njol.skript.classes.data.DefaultFunctions$17
+ ch.njol.skript.classes.data.DefaultFunctions$18
+ ch.njol.skript.classes.data.DefaultFunctions$19
+ ch.njol.skript.classes.data.DefaultFunctions$2
+ ch.njol.skript.classes.data.DefaultFunctions$20
+ ch.njol.skript.classes.data.DefaultFunctions$21
+ ch.njol.skript.classes.data.DefaultFunctions$22
+ ch.njol.skript.classes.data.DefaultFunctions$23
+ ch.njol.skript.classes.data.DefaultFunctions$24
+ ch.njol.skript.classes.data.DefaultFunctions$25
+ ch.njol.skript.classes.data.DefaultFunctions$26
+ ch.njol.skript.classes.data.DefaultFunctions$27
+ ch.njol.skript.classes.data.DefaultFunctions$3
+ ch.njol.skript.classes.data.DefaultFunctions$4
+ ch.njol.skript.classes.data.DefaultFunctions$5
+ ch.njol.skript.classes.data.DefaultFunctions$6
+ ch.njol.skript.classes.data.DefaultFunctions$7
+ ch.njol.skript.classes.data.DefaultFunctions$8
+ ch.njol.skript.classes.data.DefaultFunctions$9
+ch/njol/skript/expressions/ExprInventoryAction.java
+ ch.njol.skript.expressions.ExprInventoryAction
+ch/njol/skript/conditions/CondIsUnbreakable.java
+ ch.njol.skript.conditions.CondIsUnbreakable
+ch/njol/skript/effects/EffSendBlockChange.java
+ ch.njol.skript.effects.EffSendBlockChange
+ch/njol/skript/expressions/ExprArrowKnockbackStrength.java
+ ch.njol.skript.expressions.ExprArrowKnockbackStrength
+ ch.njol.skript.expressions.ExprArrowKnockbackStrength$1
+ch/njol/skript/conditions/CondIsOnGround.java
+ ch.njol.skript.conditions.CondIsOnGround
+ch/njol/skript/config/Option.java
+ ch.njol.skript.config.Option
+ ch.njol.skript.config.Option$1
+ ch.njol.skript.config.Option$2
+ch/njol/skript/aliases/AliasesParser.java
+ ch.njol.skript.aliases.AliasesParser
+ ch.njol.skript.aliases.AliasesParser$IntStack
+ ch.njol.skript.aliases.AliasesParser$PatternSlot
+ ch.njol.skript.aliases.AliasesParser$VariationSlot
+ch/njol/skript/variables/Variables.java
+ ch.njol.skript.variables.Variables
+ ch.njol.skript.variables.Variables$1
+ ch.njol.skript.variables.Variables$2
+ ch.njol.skript.variables.Variables$3
+ ch.njol.skript.variables.Variables$4
+ ch.njol.skript.variables.Variables$VariableChange
+ch/njol/skript/update/Updater.java
+ ch.njol.skript.update.Updater
+ ch.njol.skript.update.Updater$1
+ch/njol/skript/expressions/ExprEnchantments.java
+ ch.njol.skript.expressions.ExprEnchantments
+ ch.njol.skript.expressions.ExprEnchantments$1
+ch/njol/skript/conditions/base/PropertyCondition.java
+ ch.njol.skript.conditions.base.PropertyCondition
+ ch.njol.skript.conditions.base.PropertyCondition$1
+ ch.njol.skript.conditions.base.PropertyCondition$PropertyType
+ch/njol/skript/util/slot/ThrowableProjectileSlot.java
+ ch.njol.skript.util.slot.ThrowableProjectileSlot
+ch/njol/skript/expressions/ExprEnchantmentOfferCost.java
+ ch.njol.skript.expressions.ExprEnchantmentOfferCost
+ ch.njol.skript.expressions.ExprEnchantmentOfferCost$1
+ch/njol/skript/tests/runner/SkriptTestEvent.java
+ ch.njol.skript.tests.runner.SkriptTestEvent
+ch/njol/skript/bukkitutil/block/package-info.java
+ ch.njol.skript.bukkitutil.block.package-info
+ch/njol/skript/SkriptUpdater.java
+ ch.njol.skript.SkriptUpdater
+ ch.njol.skript.SkriptUpdater$1
+ch/njol/yggdrasil/DefaultYggdrasilInputStream.java
+ ch.njol.yggdrasil.DefaultYggdrasilInputStream
+ ch.njol.yggdrasil.DefaultYggdrasilInputStream$1
+ch/njol/skript/lang/function/ExprFunctionCall.java
+ ch.njol.skript.lang.function.ExprFunctionCall
+ch/njol/skript/expressions/ExprExplosionBlockYield.java
+ ch.njol.skript.expressions.ExprExplosionBlockYield
+ ch.njol.skript.expressions.ExprExplosionBlockYield$1
+ch/njol/skript/expressions/ExprPushedBlocks.java
+ ch.njol.skript.expressions.ExprPushedBlocks
+ch/njol/skript/bukkitutil/BukkitUnsafe.java
+ ch.njol.skript.bukkitutil.BukkitUnsafe
+ ch.njol.skript.bukkitutil.BukkitUnsafe$1
+ ch.njol.skript.bukkitutil.BukkitUnsafe$2
+ch/njol/skript/util/chat/ChatCode.java
+ ch.njol.skript.util.chat.ChatCode
+ch/njol/skript/log/CountingLogHandler.java
+ ch.njol.skript.log.CountingLogHandler
+ch/njol/skript/registrations/Converters.java
+ ch.njol.skript.registrations.Converters
+ch/njol/skript/effects/EffEquip.java
+ ch.njol.skript.effects.EffEquip
+ch/njol/skript/expressions/ExprJoinSplit.java
+ ch.njol.skript.expressions.ExprJoinSplit
+ch/njol/skript/events/EvtMove.java
+ ch.njol.skript.events.EvtMove
+ch/njol/skript/expressions/ExprMinecartDerailedFlyingVelocity.java
+ ch.njol.skript.expressions.ExprMinecartDerailedFlyingVelocity
+ ch.njol.skript.expressions.ExprMinecartDerailedFlyingVelocity$1
+ch/njol/skript/lang/parser/ParserInstance.java
+ ch.njol.skript.lang.parser.ParserInstance
+ ch.njol.skript.lang.parser.ParserInstance$Data
+ch/njol/util/coll/BidiHashMap.java
+ ch.njol.util.coll.BidiHashMap
+ch/njol/util/VectorMath.java
+ ch.njol.util.VectorMath
+ch/njol/skript/conditions/CondHasMetadata.java
+ ch.njol.skript.conditions.CondHasMetadata
+ch/njol/util/Kleenean.java
+ ch.njol.util.Kleenean
+ch/njol/skript/entity/OcelotData.java
+ ch.njol.skript.entity.OcelotData
+ch/njol/skript/bukkitutil/EntityUtils.java
+ ch.njol.skript.bukkitutil.EntityUtils
+ch/njol/skript/config/EnumParser.java
+ ch.njol.skript.config.EnumParser
+ch/njol/skript/expressions/ExprIP.java
+ ch.njol.skript.expressions.ExprIP
+ch/njol/skript/classes/data/DefaultComparators.java
+ ch.njol.skript.classes.data.DefaultComparators
+ ch.njol.skript.classes.data.DefaultComparators$1
+ ch.njol.skript.classes.data.DefaultComparators$10
+ ch.njol.skript.classes.data.DefaultComparators$11
+ ch.njol.skript.classes.data.DefaultComparators$12
+ ch.njol.skript.classes.data.DefaultComparators$13
+ ch.njol.skript.classes.data.DefaultComparators$14
+ ch.njol.skript.classes.data.DefaultComparators$15
+ ch.njol.skript.classes.data.DefaultComparators$16
+ ch.njol.skript.classes.data.DefaultComparators$17
+ ch.njol.skript.classes.data.DefaultComparators$18
+ ch.njol.skript.classes.data.DefaultComparators$19
+ ch.njol.skript.classes.data.DefaultComparators$2
+ ch.njol.skript.classes.data.DefaultComparators$20
+ ch.njol.skript.classes.data.DefaultComparators$21
+ ch.njol.skript.classes.data.DefaultComparators$22
+ ch.njol.skript.classes.data.DefaultComparators$23
+ ch.njol.skript.classes.data.DefaultComparators$24
+ ch.njol.skript.classes.data.DefaultComparators$25
+ ch.njol.skript.classes.data.DefaultComparators$26
+ ch.njol.skript.classes.data.DefaultComparators$27
+ ch.njol.skript.classes.data.DefaultComparators$28
+ ch.njol.skript.classes.data.DefaultComparators$29
+ ch.njol.skript.classes.data.DefaultComparators$3
+ ch.njol.skript.classes.data.DefaultComparators$30
+ ch.njol.skript.classes.data.DefaultComparators$31
+ ch.njol.skript.classes.data.DefaultComparators$32
+ ch.njol.skript.classes.data.DefaultComparators$4
+ ch.njol.skript.classes.data.DefaultComparators$5
+ ch.njol.skript.classes.data.DefaultComparators$6
+ ch.njol.skript.classes.data.DefaultComparators$7
+ ch.njol.skript.classes.data.DefaultComparators$8
+ ch.njol.skript.classes.data.DefaultComparators$9
+ch/njol/skript/expressions/ExprGameRule.java
+ ch.njol.skript.expressions.ExprGameRule
+ch/njol/skript/expressions/ExprItemAmount.java
+ ch.njol.skript.expressions.ExprItemAmount
+ ch.njol.skript.expressions.ExprItemAmount$1
+ch/njol/skript/hooks/permission/expressions/package-info.java
+ ch.njol.skript.hooks.permission.expressions.package-info
+ch/njol/skript/conditions/CondIsVectorNormalized.java
+ ch.njol.skript.conditions.CondIsVectorNormalized
+ch/njol/skript/expressions/ExprArgument.java
+ ch.njol.skript.expressions.ExprArgument
+ch/njol/skript/util/AsyncEffect.java
+ ch.njol.skript.util.AsyncEffect
+ch/njol/skript/expressions/ExprPlayerWeather.java
+ ch.njol.skript.expressions.ExprPlayerWeather
+ch/njol/skript/bukkitutil/block/NewBlockCompat.java
+ ch.njol.skript.bukkitutil.block.NewBlockCompat
+ ch.njol.skript.bukkitutil.block.NewBlockCompat$NewBlockSetter
+ ch.njol.skript.bukkitutil.block.NewBlockCompat$NewBlockValues
+ch/njol/skript/effects/EffDoIf.java
+ ch.njol.skript.effects.EffDoIf
+ch/njol/skript/log/Verbosity.java
+ ch.njol.skript.log.Verbosity
+ch/njol/skript/expressions/ExprDifficulty.java
+ ch.njol.skript.expressions.ExprDifficulty
+ch/njol/skript/conditions/CondIsBanned.java
+ ch.njol.skript.conditions.CondIsBanned
+ch/njol/skript/util/slot/CursorSlot.java
+ ch.njol.skript.util.slot.CursorSlot
+ch/njol/yggdrasil/xml/package-info.java
+ ch.njol.yggdrasil.xml.package-info
+ch/njol/skript/lang/function/Functions.java
+ ch.njol.skript.lang.function.Functions
+ch/njol/skript/expressions/ExprExplosiveYield.java
+ ch.njol.skript.expressions.ExprExplosiveYield
+ ch.njol.skript.expressions.ExprExplosiveYield$1
+ch/njol/skript/hooks/economy/classes/Money.java
+ ch.njol.skript.hooks.economy.classes.Money
+ ch.njol.skript.hooks.economy.classes.Money$1
+ ch.njol.skript.hooks.economy.classes.Money$2
+ ch.njol.skript.hooks.economy.classes.Money$3
+ ch.njol.skript.hooks.economy.classes.Money$4
+ ch.njol.skript.hooks.economy.classes.Money$5
+ch/njol/skript/tests/runner/EffAssert.java
+ ch.njol.skript.tests.runner.EffAssert
+ch/njol/skript/expressions/ExprLastLoginTime.java
+ ch.njol.skript.expressions.ExprLastLoginTime
+ch/njol/skript/expressions/ExprTernary.java
+ ch.njol.skript.expressions.ExprTernary
+ch/njol/skript/lang/function/FunctionEvent.java
+ ch.njol.skript.lang.function.FunctionEvent
+ch/njol/skript/expressions/ExprVelocity.java
+ ch.njol.skript.expressions.ExprVelocity
+ ch.njol.skript.expressions.ExprVelocity$1
+ch/njol/skript/expressions/ExprTimes.java
+ ch.njol.skript.expressions.ExprTimes
+ch/njol/skript/effects/EffVectorRotateAroundAnother.java
+ ch.njol.skript.effects.EffVectorRotateAroundAnother
+ch/njol/skript/expressions/ExprItemWithLore.java
+ ch.njol.skript.expressions.ExprItemWithLore
+ch/njol/skript/events/SimpleEvents.java
+ ch.njol.skript.events.SimpleEvents
+ch/njol/skript/expressions/ExprEnchantingExpCost.java
+ ch.njol.skript.expressions.ExprEnchantingExpCost
+ ch.njol.skript.expressions.ExprEnchantingExpCost$1
+ch/njol/skript/expressions/ExprMendingRepairAmount.java
+ ch.njol.skript.expressions.ExprMendingRepairAmount
+ ch.njol.skript.expressions.ExprMendingRepairAmount$1
+ch/njol/skript/effects/EffCommand.java
+ ch.njol.skript.effects.EffCommand
+ch/njol/skript/lang/SelfRegisteringSkriptEvent.java
+ ch.njol.skript.lang.SelfRegisteringSkriptEvent
+ch/njol/skript/aliases/MaterialRegistry.java
+ ch.njol.skript.aliases.MaterialRegistry
+ch/njol/skript/expressions/ExprSortedList.java
+ ch.njol.skript.expressions.ExprSortedList
+ch/njol/skript/expressions/ExprLastLoadedServerIcon.java
+ ch.njol.skript.expressions.ExprLastLoadedServerIcon
+ch/njol/skript/SkriptConfig.java
+ ch.njol.skript.SkriptConfig
+ ch.njol.skript.SkriptConfig$1
+ ch.njol.skript.SkriptConfig$10
+ ch.njol.skript.SkriptConfig$11
+ ch.njol.skript.SkriptConfig$12
+ ch.njol.skript.SkriptConfig$2
+ ch.njol.skript.SkriptConfig$3
+ ch.njol.skript.SkriptConfig$4
+ ch.njol.skript.SkriptConfig$5
+ ch.njol.skript.SkriptConfig$6
+ ch.njol.skript.SkriptConfig$7
+ ch.njol.skript.SkriptConfig$8
+ ch.njol.skript.SkriptConfig$9
+ch/njol/skript/doc/Events.java
+ ch.njol.skript.doc.Events
+ch/njol/skript/expressions/ExprHealReason.java
+ ch.njol.skript.expressions.ExprHealReason
+ch/njol/skript/effects/EffShoot.java
+ ch.njol.skript.effects.EffShoot
+ch/njol/skript/conditions/CondPermission.java
+ ch.njol.skript.conditions.CondPermission
+ch/njol/yggdrasil/YggdrasilSerializable.java
+ ch.njol.yggdrasil.YggdrasilSerializable
+ ch.njol.yggdrasil.YggdrasilSerializable$YggdrasilExtendedSerializable
+ ch.njol.yggdrasil.YggdrasilSerializable$YggdrasilRobustEnum
+ ch.njol.yggdrasil.YggdrasilSerializable$YggdrasilRobustSerializable
+ch/njol/skript/lang/SkriptParser.java
+ ch.njol.skript.lang.SkriptParser
+ ch.njol.skript.lang.SkriptParser$ExprInfo
+ ch.njol.skript.lang.SkriptParser$MalformedPatternException
+ ch.njol.skript.lang.SkriptParser$ParseResult
+ch/njol/skript/expressions/ExprWeather.java
+ ch.njol.skript.expressions.ExprWeather
+ ch.njol.skript.expressions.ExprWeather$1
+ch/njol/skript/variables/TypeHints.java
+ ch.njol.skript.variables.TypeHints
+ch/njol/skript/events/bukkit/ScheduledEvent.java
+ ch.njol.skript.events.bukkit.ScheduledEvent
+ ch.njol.skript.events.bukkit.ScheduledEvent$1
+ch/njol/skript/lang/function/FunctionReference.java
+ ch.njol.skript.lang.function.FunctionReference
+ch/njol/skript/bukkitutil/block/BlockSetter.java
+ ch.njol.skript.bukkitutil.block.BlockSetter
+ch/njol/skript/effects/EffExplosion.java
+ ch.njol.skript.effects.EffExplosion
+ch/njol/skript/config/Node.java
+ ch.njol.skript.config.Node
+ch/njol/yggdrasil/SimpleClassResolver.java
+ ch.njol.yggdrasil.SimpleClassResolver
+ch/njol/skript/entity/HorseData.java
+ ch.njol.skript.entity.HorseData
+ch/njol/skript/expressions/ExprSlotIndex.java
+ ch.njol.skript.expressions.ExprSlotIndex
+ch/njol/skript/events/EvtFirework.java
+ ch.njol.skript.events.EvtFirework
+ch/njol/skript/util/AABB.java
+ ch.njol.skript.util.AABB
+ ch.njol.skript.util.AABB$1
+ch/njol/skript/config/SimpleNode.java
+ ch.njol.skript.config.SimpleNode
+ch/njol/skript/expressions/ExprColoured.java
+ ch.njol.skript.expressions.ExprColoured
+ ch.njol.skript.expressions.ExprColoured$1
+ch/njol/skript/conditions/CondIsEnchanted.java
+ ch.njol.skript.conditions.CondIsEnchanted
+ch/njol/skript/lang/SyntaxElementInfo.java
+ ch.njol.skript.lang.SyntaxElementInfo
+ch/njol/skript/expressions/ExprVectorArithmetic.java
+ ch.njol.skript.expressions.ExprVectorArithmetic
+ ch.njol.skript.expressions.ExprVectorArithmetic$Operator
+ ch.njol.skript.expressions.ExprVectorArithmetic$Operator$1
+ ch.njol.skript.expressions.ExprVectorArithmetic$Operator$2
+ ch.njol.skript.expressions.ExprVectorArithmetic$Operator$3
+ ch.njol.skript.expressions.ExprVectorArithmetic$Operator$4
+ch/njol/skript/expressions/ExprEntities.java
+ ch.njol.skript.expressions.ExprEntities
+ ch.njol.skript.expressions.ExprEntities$1
+ch/njol/skript/effects/EffOpenInventory.java
+ ch.njol.skript.effects.EffOpenInventory
+ch/njol/skript/events/package-info.java
+ ch.njol.skript.events.package-info
+ch/njol/skript/expressions/ExprHumidity.java
+ ch.njol.skript.expressions.ExprHumidity
+ch/njol/skript/bukkitutil/block/BlockCompat.java
+ ch.njol.skript.bukkitutil.block.BlockCompat
+ch/njol/skript/events/EvtPlantGrowth.java
+ ch.njol.skript.events.EvtPlantGrowth
+ch/njol/skript/util/slot/SlotWithIndex.java
+ ch.njol.skript.util.slot.SlotWithIndex
+ch/njol/skript/expressions/ExprIndexOf.java
+ ch.njol.skript.expressions.ExprIndexOf
+ch/njol/skript/localization/RegexMessage.java
+ ch.njol.skript.localization.RegexMessage
+ch/njol/skript/events/EvtBookSign.java
+ ch.njol.skript.events.EvtBookSign
+ch/njol/skript/hooks/regions/RegionsPlugin.java
+ ch.njol.skript.hooks.regions.RegionsPlugin
+ ch.njol.skript.hooks.regions.RegionsPlugin$1
+ch/njol/skript/hooks/regions/WorldGuardHook.java
+ ch.njol.skript.hooks.regions.WorldGuardHook
+ ch.njol.skript.hooks.regions.WorldGuardHook$WorldGuardRegion
+ch/njol/skript/entity/ParrotData.java
+ ch.njol.skript.entity.ParrotData
+ch/njol/skript/expressions/ExprLoopValue.java
+ ch.njol.skript.expressions.ExprLoopValue
+ ch.njol.skript.expressions.ExprLoopValue$1
+ch/njol/skript/log/package-info.java
+ ch.njol.skript.log.package-info
+ch/njol/skript/bukkitutil/block/BlockValues.java
+ ch.njol.skript.bukkitutil.block.BlockValues
+ch/njol/skript/tests/runner/TestFunctions.java
+ ch.njol.skript.tests.runner.TestFunctions
+ ch.njol.skript.tests.runner.TestFunctions$1
+ch/njol/util/coll/iterator/EmptyIterable.java
+ ch.njol.util.coll.iterator.EmptyIterable
+ch/njol/skript/util/package-info.java
+ ch.njol.skript.util.package-info
+ch/njol/skript/util/GameruleValue.java
+ ch.njol.skript.util.GameruleValue
+ch/njol/skript/expressions/ExprAffectedEntities.java
+ ch.njol.skript.expressions.ExprAffectedEntities
+ch/njol/skript/config/Config.java
+ ch.njol.skript.config.Config
+ch/njol/skript/expressions/ExprVectorAngleBetween.java
+ ch.njol.skript.expressions.ExprVectorAngleBetween
+ch/njol/skript/hooks/biomes/BiomeMapUtil.java
+ ch.njol.skript.hooks.biomes.BiomeMapUtil
+ ch.njol.skript.hooks.biomes.BiomeMapUtil$To19Mapping
+ch/njol/skript/entity/FallingBlockData.java
+ ch.njol.skript.entity.FallingBlockData
+ ch.njol.skript.entity.FallingBlockData$1
+ch/njol/skript/entity/PandaData.java
+ ch.njol.skript.entity.PandaData
+ch/njol/skript/effects/EffChargeCreeper.java
+ ch.njol.skript.effects.EffChargeCreeper
+ch/njol/skript/conditions/CondIsWhitelisted.java
+ ch.njol.skript.conditions.CondIsWhitelisted
+ch/njol/skript/lang/SyntaxElement.java
+ ch.njol.skript.lang.SyntaxElement
+ch/njol/skript/aliases/ScriptAliases.java
+ ch.njol.skript.aliases.ScriptAliases
+ch/njol/skript/expressions/ExprFormatTime.java
+ ch.njol.skript.expressions.ExprFormatTime
+ ch.njol.skript.expressions.ExprFormatTime$1
+ch/njol/skript/expressions/ExprGlowing.java
+ ch.njol.skript.expressions.ExprGlowing
+ch/njol/skript/expressions/base/EventValueExpression.java
+ ch.njol.skript.expressions.base.EventValueExpression
+ch/njol/skript/hooks/biomes/package-info.java
+ ch.njol.skript.hooks.biomes.package-info
+ch/njol/skript/util/Version.java
+ ch.njol.skript.util.Version
+ch/njol/skript/lang/LiteralList.java
+ ch.njol.skript.lang.LiteralList
+ch/njol/skript/lang/Trigger.java
+ ch.njol.skript.lang.Trigger
+ch/njol/skript/aliases/AliasesMap.java
+ ch.njol.skript.aliases.AliasesMap
+ ch.njol.skript.aliases.AliasesMap$AliasData
+ ch.njol.skript.aliases.AliasesMap$Match
+ ch.njol.skript.aliases.AliasesMap$MaterialEntry
+ch/njol/skript/events/EvtCommand.java
+ ch.njol.skript.events.EvtCommand
+ch/njol/skript/expressions/ExprNow.java
+ ch.njol.skript.expressions.ExprNow
+ch/njol/skript/tests/package-info.java
+ ch.njol.skript.tests.package-info
+ch/njol/skript/expressions/ExprLocation.java
+ ch.njol.skript.expressions.ExprLocation
+ch/njol/skript/lang/package-info.java
+ ch.njol.skript.lang.package-info
+ch/njol/skript/conditions/CondStartsEndsWith.java
+ ch.njol.skript.conditions.CondStartsEndsWith
+ch/njol/skript/aliases/Aliases.java
+ ch.njol.skript.aliases.Aliases
+ch/njol/skript/command/ScriptCommand.java
+ ch.njol.skript.command.ScriptCommand
+ ch.njol.skript.command.ScriptCommand$1
+ch/njol/skript/expressions/ExprDefaultValue.java
+ ch.njol.skript.expressions.ExprDefaultValue
+ch/njol/skript/lang/While.java
+ ch.njol.skript.lang.While
+ch/njol/skript/expressions/ExprRandomNumber.java
+ ch.njol.skript.expressions.ExprRandomNumber
+ch/njol/skript/util/slot/ItemFrameSlot.java
+ ch.njol.skript.util.slot.ItemFrameSlot
+ch/njol/skript/effects/EffVisualEffect.java
+ ch.njol.skript.effects.EffVisualEffect
+ch/njol/skript/hooks/regions/GriefPreventionHook.java
+ ch.njol.skript.hooks.regions.GriefPreventionHook
+ ch.njol.skript.hooks.regions.GriefPreventionHook$GriefPreventionRegion
+ch/njol/skript/effects/EffCancelDrops.java
+ ch.njol.skript.effects.EffCancelDrops
+ch/njol/skript/lang/function/ScriptFunction.java
+ ch.njol.skript.lang.function.ScriptFunction
+ch/njol/skript/registrations/package-info.java
+ ch.njol.skript.registrations.package-info
+ch/njol/skript/expressions/ExprSpectatorTarget.java
+ ch.njol.skript.expressions.ExprSpectatorTarget
+ ch.njol.skript.expressions.ExprSpectatorTarget$1
+ch/njol/util/Validate.java
+ ch.njol.util.Validate
+ch/njol/skript/expressions/ExprBlocks.java
+ ch.njol.skript.expressions.ExprBlocks
+ch/njol/skript/expressions/ExprCoordinate.java
+ ch.njol.skript.expressions.ExprCoordinate
+ ch.njol.skript.expressions.ExprCoordinate$1
+ch/njol/skript/SkriptCommand.java
+ ch.njol.skript.SkriptCommand
+ch/njol/skript/util/slot/EquipmentSlot.java
+ ch.njol.skript.util.slot.EquipmentSlot
+ ch.njol.skript.util.slot.EquipmentSlot$EquipSlot
+ ch.njol.skript.util.slot.EquipmentSlot$EquipSlot$1
+ ch.njol.skript.util.slot.EquipmentSlot$EquipSlot$2
+ ch.njol.skript.util.slot.EquipmentSlot$EquipSlot$3
+ ch.njol.skript.util.slot.EquipmentSlot$EquipSlot$4
+ ch.njol.skript.util.slot.EquipmentSlot$EquipSlot$5
+ ch.njol.skript.util.slot.EquipmentSlot$EquipSlot$6
+ch/njol/skript/registrations/EventValues.java
+ ch.njol.skript.registrations.EventValues
+ ch.njol.skript.registrations.EventValues$1
+ ch.njol.skript.registrations.EventValues$2
+ ch.njol.skript.registrations.EventValues$3
+ ch.njol.skript.registrations.EventValues$EventValueInfo
+ch/njol/skript/expressions/ExprPotionEffect.java
+ ch.njol.skript.expressions.ExprPotionEffect
+ch/njol/yggdrasil/YggdrasilInputStream.java
+ ch.njol.yggdrasil.YggdrasilInputStream
+ ch.njol.yggdrasil.YggdrasilInputStream$1
+ch/njol/skript/expressions/ExprEyeLocation.java
+ ch.njol.skript.expressions.ExprEyeLocation
+ch/njol/skript/lang/VariableString.java
+ ch.njol.skript.lang.VariableString
+ch/njol/skript/util/StructureType.java
+ ch.njol.skript.util.StructureType
+ ch.njol.skript.util.StructureType$1
+ch/njol/skript/bukkitutil/ItemUtils.java
+ ch.njol.skript.bukkitutil.ItemUtils
+ch/njol/skript/classes/Serializer.java
+ ch.njol.skript.classes.Serializer
+ch/njol/skript/hooks/regions/events/EvtRegionBorder.java
+ ch.njol.skript.hooks.regions.events.EvtRegionBorder
+ ch.njol.skript.hooks.regions.events.EvtRegionBorder$1
+ ch.njol.skript.hooks.regions.events.EvtRegionBorder$2
+ ch.njol.skript.hooks.regions.events.EvtRegionBorder$3
+ ch.njol.skript.hooks.regions.events.EvtRegionBorder$4
+ ch.njol.skript.hooks.regions.events.EvtRegionBorder$5
+ ch.njol.skript.hooks.regions.events.EvtRegionBorder$6
+ ch.njol.skript.hooks.regions.events.EvtRegionBorder$7
+ch/njol/skript/util/SkriptColor.java
+ ch.njol.skript.util.SkriptColor
+ch/njol/skript/util/Container.java
+ ch.njol.skript.util.Container
+ ch.njol.skript.util.Container$ContainerType
+ch/njol/skript/effects/EffBroadcast.java
+ ch.njol.skript.effects.EffBroadcast
+ch/njol/skript/lang/Effect.java
+ ch.njol.skript.lang.Effect
+ch/njol/skript/doc/package-info.java
+ ch.njol.skript.doc.package-info
+ch/njol/skript/entity/WolfData.java
+ ch.njol.skript.entity.WolfData
+ch/njol/skript/expressions/ExprEnchantItem.java
+ ch.njol.skript.expressions.ExprEnchantItem
+ ch.njol.skript.expressions.ExprEnchantItem$1
+ch/njol/skript/effects/IndeterminateDelay.java
+ ch.njol.skript.effects.IndeterminateDelay
+ ch.njol.skript.effects.IndeterminateDelay$1
+ch/njol/skript/effects/EffReplace.java
+ ch.njol.skript.effects.EffReplace
+ch/njol/skript/effects/EffVehicle.java
+ ch.njol.skript.effects.EffVehicle
+ch/njol/skript/hooks/VaultHook.java
+ ch.njol.skript.hooks.VaultHook
+ch/njol/skript/expressions/ExprScripts.java
+ ch.njol.skript.expressions.ExprScripts
+ch/njol/skript/conditions/CondIsBlocking.java
+ ch.njol.skript.conditions.CondIsBlocking
+ch/njol/skript/aliases/MaterialName.java
+ ch.njol.skript.aliases.MaterialName
+ch/njol/skript/expressions/ExprShooter.java
+ ch.njol.skript.expressions.ExprShooter
+ ch.njol.skript.expressions.ExprShooter$1
+ch/njol/skript/entity/TropicalFishData.java
+ ch.njol.skript.entity.TropicalFishData
+ch/njol/skript/expressions/package-info.java
+ ch.njol.skript.expressions.package-info
+ch/njol/util/coll/iterator/ImprovedIterator.java
+ ch.njol.util.coll.iterator.ImprovedIterator
+ch/njol/skript/expressions/ExprTimeSince.java
+ ch.njol.skript.expressions.ExprTimeSince
+ch/njol/skript/expressions/ExprElement.java
+ ch.njol.skript.expressions.ExprElement
+ch/njol/skript/effects/EffPush.java
+ ch.njol.skript.effects.EffPush
+ch/njol/skript/SkriptEventHandler.java
+ ch.njol.skript.SkriptEventHandler
+ ch.njol.skript.SkriptEventHandler$PriorityListener
+ch/njol/skript/lang/Condition.java
+ ch.njol.skript.lang.Condition
+ch/njol/skript/classes/ChainedConverter.java
+ ch.njol.skript.classes.ChainedConverter
+ch/njol/skript/expressions/ExprArrowPierceLevel.java
+ ch.njol.skript.expressions.ExprArrowPierceLevel
+ ch.njol.skript.expressions.ExprArrowPierceLevel$1
+ch/njol/skript/expressions/ExprPing.java
+ ch.njol.skript.expressions.ExprPing
+ch/njol/skript/conditions/CondCanSee.java
+ ch.njol.skript.conditions.CondCanSee
+ch/njol/skript/events/EvtDamage.java
+ ch.njol.skript.events.EvtDamage
+ch/njol/skript/effects/EffPotion.java
+ ch.njol.skript.effects.EffPotion
+ch/njol/skript/tests/platform/package-info.java
+ ch.njol.skript.tests.platform.package-info
+ch/njol/skript/expressions/ExprVersionString.java
+ ch.njol.skript.expressions.ExprVersionString
+ch/njol/skript/classes/Cloner.java
+ ch.njol.skript.classes.Cloner
+ch/njol/skript/expressions/ExprChunk.java
+ ch.njol.skript.expressions.ExprChunk
+ ch.njol.skript.expressions.ExprChunk$1
+ch/njol/skript/variables/FlatFileStorage.java
+ ch.njol.skript.variables.FlatFileStorage
+ ch.njol.skript.variables.FlatFileStorage$1
+ch/njol/skript/effects/EffMakeSay.java
+ ch.njol.skript.effects.EffMakeSay
+ch/njol/skript/expressions/ExprArrowsStuck.java
+ ch.njol.skript.expressions.ExprArrowsStuck
+ ch.njol.skript.expressions.ExprArrowsStuck$1
+ch/njol/skript/events/EvtResourcePackResponse.java
+ ch.njol.skript.events.EvtResourcePackResponse
+ch/njol/skript/aliases/InvalidMinecraftIdException.java
+ ch.njol.skript.aliases.InvalidMinecraftIdException
+ch/njol/skript/classes/SerializableChanger.java
+ ch.njol.skript.classes.SerializableChanger
+ch/njol/util/Closeable.java
+ ch.njol.util.Closeable
+ch/njol/skript/entity/package-info.java
+ ch.njol.skript.entity.package-info
+ch/njol/skript/events/EvtScript.java
+ ch.njol.skript.events.EvtScript
+ch/njol/skript/expressions/ExprInventorySlot.java
+ ch.njol.skript.expressions.ExprInventorySlot
+ch/njol/skript/expressions/ExprTimePlayed.java
+ ch.njol.skript.expressions.ExprTimePlayed
+ ch.njol.skript.expressions.ExprTimePlayed$1
+ch/njol/skript/expressions/base/WrapperExpression.java
+ ch.njol.skript.expressions.base.WrapperExpression
+ ch.njol.skript.expressions.base.WrapperExpression$1
+ch/njol/skript/update/UpdaterState.java
+ ch.njol.skript.update.UpdaterState
+ch/njol/skript/util/Patterns.java
+ ch.njol.skript.util.Patterns
+ch/njol/skript/classes/data/DefaultConverters.java
+ ch.njol.skript.classes.data.DefaultConverters
+ ch.njol.skript.classes.data.DefaultConverters$1
+ ch.njol.skript.classes.data.DefaultConverters$10
+ ch.njol.skript.classes.data.DefaultConverters$11
+ ch.njol.skript.classes.data.DefaultConverters$12
+ ch.njol.skript.classes.data.DefaultConverters$13
+ ch.njol.skript.classes.data.DefaultConverters$14
+ ch.njol.skript.classes.data.DefaultConverters$15
+ ch.njol.skript.classes.data.DefaultConverters$16
+ ch.njol.skript.classes.data.DefaultConverters$17
+ ch.njol.skript.classes.data.DefaultConverters$18
+ ch.njol.skript.classes.data.DefaultConverters$19
+ ch.njol.skript.classes.data.DefaultConverters$2
+ ch.njol.skript.classes.data.DefaultConverters$20
+ ch.njol.skript.classes.data.DefaultConverters$21
+ ch.njol.skript.classes.data.DefaultConverters$22
+ ch.njol.skript.classes.data.DefaultConverters$23
+ ch.njol.skript.classes.data.DefaultConverters$24
+ ch.njol.skript.classes.data.DefaultConverters$3
+ ch.njol.skript.classes.data.DefaultConverters$4
+ ch.njol.skript.classes.data.DefaultConverters$5
+ ch.njol.skript.classes.data.DefaultConverters$6
+ ch.njol.skript.classes.data.DefaultConverters$7
+ ch.njol.skript.classes.data.DefaultConverters$8
+ ch.njol.skript.classes.data.DefaultConverters$9
+ch/njol/skript/hooks/regions/expressions/package-info.java
+ ch.njol.skript.hooks.regions.expressions.package-info
+ch/njol/skript/update/ReleaseStatus.java
+ ch.njol.skript.update.ReleaseStatus
+ch/njol/skript/lang/function/Namespace.java
+ ch.njol.skript.lang.function.Namespace
+ ch.njol.skript.lang.function.Namespace$Key
+ ch.njol.skript.lang.function.Namespace$Origin
+ch/njol/skript/conditions/CondIsLoaded.java
+ ch.njol.skript.conditions.CondIsLoaded
+ch/njol/skript/util/PotionDataUtils.java
+ ch.njol.skript.util.PotionDataUtils
+ch/njol/skript/conditions/CondIsTransparent.java
+ ch.njol.skript.conditions.CondIsTransparent
+ch/njol/skript/expressions/ExprEnchantmentOffer.java
+ ch.njol.skript.expressions.ExprEnchantmentOffer
+ ch.njol.skript.expressions.ExprEnchantmentOffer$1
+ch/njol/skript/expressions/ExprMaxMinecartSpeed.java
+ ch.njol.skript.expressions.ExprMaxMinecartSpeed
+ ch.njol.skript.expressions.ExprMaxMinecartSpeed$1
+ch/njol/skript/effects/EffFeed.java
+ ch.njol.skript.effects.EffFeed
+ch/njol/skript/expressions/ExprCustomModelData.java
+ ch.njol.skript.expressions.ExprCustomModelData
+ ch.njol.skript.expressions.ExprCustomModelData$1
+ch/njol/skript/expressions/ExprCommand.java
+ ch.njol.skript.expressions.ExprCommand
+ch/njol/skript/bukkitutil/CommandReloader.java
+ ch.njol.skript.bukkitutil.CommandReloader
+ch/njol/skript/expressions/ExprCreeperMaxFuseTicks.java
+ ch.njol.skript.expressions.ExprCreeperMaxFuseTicks
+ ch.njol.skript.expressions.ExprCreeperMaxFuseTicks$1
+ch/njol/skript/expressions/ExprCompassTarget.java
+ ch.njol.skript.expressions.ExprCompassTarget
+ch/njol/skript/command/package-info.java
+ ch.njol.skript.command.package-info
+ch/njol/skript/classes/EnumSerializer.java
+ ch.njol.skript.classes.EnumSerializer
+ch/njol/skript/util/EnumUtils.java
+ ch.njol.skript.util.EnumUtils
+ ch.njol.skript.util.EnumUtils$1
+ch/njol/skript/expressions/ExprVersion.java
+ ch.njol.skript.expressions.ExprVersion
+ ch.njol.skript.expressions.ExprVersion$VersionType
+ ch.njol.skript.expressions.ExprVersion$VersionType$1
+ ch.njol.skript.expressions.ExprVersion$VersionType$2
+ ch.njol.skript.expressions.ExprVersion$VersionType$3
+ch/njol/skript/effects/EffLeash.java
+ ch.njol.skript.effects.EffLeash
+ch/njol/skript/effects/EffKill.java
+ ch.njol.skript.effects.EffKill
+ch/njol/skript/expressions/ExprItemWithCustomModelData.java
+ ch.njol.skript.expressions.ExprItemWithCustomModelData
+ch/njol/skript/entity/RabbitData.java
+ ch.njol.skript.entity.RabbitData
+ ch.njol.skript.entity.RabbitData$1
+ch/njol/skript/effects/EffHealth.java
+ ch.njol.skript.effects.EffHealth
+ch/njol/skript/events/EvtBookEdit.java
+ ch.njol.skript.events.EvtBookEdit
+ch/njol/skript/expressions/ExprAlphabetList.java
+ ch.njol.skript.expressions.ExprAlphabetList
+ch/njol/skript/expressions/ExprGravity.java
+ ch.njol.skript.expressions.ExprGravity
+ch/njol/skript/expressions/LitNewLine.java
+ ch.njol.skript.expressions.LitNewLine
+ch/njol/util/coll/iterator/package-info.java
+ ch.njol.util.coll.iterator.package-info
+ch/njol/skript/expressions/ExprFertilizedBlocks.java
+ ch.njol.skript.expressions.ExprFertilizedBlocks
+ch/njol/skript/expressions/ExprAllCommands.java
+ ch.njol.skript.expressions.ExprAllCommands
+ch/njol/skript/expressions/ExprLightLevel.java
+ ch.njol.skript.expressions.ExprLightLevel
+ ch.njol.skript.expressions.ExprLightLevel$1
+ch/njol/skript/conditions/CondIsSkriptCommand.java
+ ch.njol.skript.conditions.CondIsSkriptCommand
+ch/njol/skript/expressions/ExprAltitude.java
+ ch.njol.skript.expressions.ExprAltitude
+ch/njol/skript/log/RetainingLogHandler.java
+ ch.njol.skript.log.RetainingLogHandler
+ch/njol/skript/classes/Comparator.java
+ ch.njol.skript.classes.Comparator
+ ch.njol.skript.classes.Comparator$1
+ ch.njol.skript.classes.Comparator$2
+ ch.njol.skript.classes.Comparator$ComparatorInfo
+ ch.njol.skript.classes.Comparator$Relation
+ch/njol/skript/util/ColorRGB.java
+ ch.njol.skript.util.ColorRGB
+ch/njol/skript/bukkitutil/Workarounds.java
+ ch.njol.skript.bukkitutil.Workarounds
+ ch.njol.skript.bukkitutil.Workarounds$1
+ch/njol/skript/util/FishingStates.java
+ ch.njol.skript.util.FishingStates
+ch/njol/skript/expressions/ExprVehicle.java
+ ch.njol.skript.expressions.ExprVehicle
+ ch.njol.skript.expressions.ExprVehicle$1
+ch/njol/skript/expressions/ExprRemainingAir.java
+ ch.njol.skript.expressions.ExprRemainingAir
+ ch.njol.skript.expressions.ExprRemainingAir$1
+ch/njol/skript/entity/GuardianData.java
+ ch.njol.skript.entity.GuardianData
+ch/njol/util/coll/iterator/NonNullIterator.java
+ ch.njol.util.coll.iterator.NonNullIterator
+ch/njol/skript/expressions/ExprVectorDotProduct.java
+ ch.njol.skript.expressions.ExprVectorDotProduct
+ch/njol/skript/lang/Statement.java
+ ch.njol.skript.lang.Statement
+ch/njol/yggdrasil/YggdrasilSerializer.java
+ ch.njol.yggdrasil.YggdrasilSerializer
+ch/njol/skript/conditions/CondIsRiding.java
+ ch.njol.skript.conditions.CondIsRiding
+ch/njol/skript/effects/EffIgnite.java
+ ch.njol.skript.effects.EffIgnite
+ ch.njol.skript.effects.EffIgnite$1
+ch/njol/util/coll/ReversedListView.java
+ ch.njol.util.coll.ReversedListView
+ch/njol/skript/expressions/ExprDateAgoLater.java
+ ch.njol.skript.expressions.ExprDateAgoLater
+ch/njol/skript/command/Commands.java
+ ch.njol.skript.command.Commands
+ ch.njol.skript.command.Commands$1
+ ch.njol.skript.command.Commands$2
+ ch.njol.skript.command.Commands$3
+ ch.njol.skript.command.Commands$3$1
+ ch.njol.skript.command.Commands$4
+ ch.njol.skript.command.Commands$CommandAliasHelpTopic
+ch/njol/skript/effects/EffShear.java
+ ch.njol.skript.effects.EffShear
+ch/njol/skript/hooks/regions/classes/Region.java
+ ch.njol.skript.hooks.regions.classes.Region
+ ch.njol.skript.hooks.regions.classes.Region$1
+ ch.njol.skript.hooks.regions.classes.Region$2
+ ch.njol.skript.hooks.regions.classes.Region$3
+ch/njol/skript/conditions/CondScriptLoaded.java
+ ch.njol.skript.conditions.CondScriptLoaded
+ch/njol/skript/expressions/ExprLocationFromVector.java
+ ch.njol.skript.expressions.ExprLocationFromVector
+ch/njol/skript/expressions/ExprVectorYawPitch.java
+ ch.njol.skript.expressions.ExprVectorYawPitch
+ ch.njol.skript.expressions.ExprVectorYawPitch$1
+ch/njol/skript/config/package-info.java
+ ch.njol.skript.config.package-info
+ch/njol/skript/effects/EffVectorRotateXYZ.java
+ ch.njol.skript.effects.EffVectorRotateXYZ
+ch/njol/skript/expressions/base/SimplePropertyExpression.java
+ ch.njol.skript.expressions.base.SimplePropertyExpression
+ch/njol/util/Pair.java
+ ch.njol.util.Pair
+ch/njol/skript/bukkitutil/PlayerUtils.java
+ ch.njol.skript.bukkitutil.PlayerUtils
+ ch.njol.skript.bukkitutil.PlayerUtils$1
+ ch.njol.skript.bukkitutil.PlayerUtils$2
+ch/njol/skript/expressions/ExprAmountOfItems.java
+ ch.njol.skript.expressions.ExprAmountOfItems
+ch/njol/skript/expressions/ExprSaturation.java
+ ch.njol.skript.expressions.ExprSaturation
+ ch.njol.skript.expressions.ExprSaturation$1
+ ch.njol.skript.expressions.ExprSaturation$2
+ch/njol/skript/lang/parser/package-info.java
+ ch.njol.skript.lang.parser.package-info
+ch/njol/skript/hooks/permission/expressions/ExprAllGroups.java
+ ch.njol.skript.hooks.permission.expressions.ExprAllGroups
+ch/njol/skript/util/slot/package-info.java
+ ch.njol.skript.util.slot.package-info
+ch/njol/skript/conditions/CondIsOccluding.java
+ ch.njol.skript.conditions.CondIsOccluding
+ch/njol/skript/expressions/ExprSpecialNumber.java
+ ch.njol.skript.expressions.ExprSpecialNumber
+ch/njol/util/Math2.java
+ ch.njol.util.Math2
+ch/njol/skript/expressions/ExprServerIcon.java
+ ch.njol.skript.expressions.ExprServerIcon
+ ch.njol.skript.expressions.ExprServerIcon$1
+ch/njol/skript/expressions/ExprBlockData.java
+ ch.njol.skript.expressions.ExprBlockData
+ch/njol/skript/expressions/ExprPlayerViewDistance.java
+ ch.njol.skript.expressions.ExprPlayerViewDistance
+ ch.njol.skript.expressions.ExprPlayerViewDistance$1
+ ch.njol.skript.expressions.ExprPlayerViewDistance$2
+ch/njol/skript/expressions/ExprTargetedBlock.java
+ ch.njol.skript.expressions.ExprTargetedBlock
+ ch.njol.skript.expressions.ExprTargetedBlock$1
+ch/njol/skript/conditions/CondIsTameable.java
+ ch.njol.skript.conditions.CondIsTameable
+ch/njol/skript/entity/EndermanData.java
+ ch.njol.skript.entity.EndermanData
+ ch.njol.skript.entity.EndermanData$1
+ch/njol/skript/util/visual/ParticleOption.java
+ ch.njol.skript.util.visual.ParticleOption
+ch/njol/skript/expressions/LitConsole.java
+ ch.njol.skript.expressions.LitConsole
+ch/njol/skript/update/UpdateChecker.java
+ ch.njol.skript.update.UpdateChecker
+ch/njol/skript/expressions/ExprCmdCooldownInfo.java
+ ch.njol.skript.expressions.ExprCmdCooldownInfo
+ ch.njol.skript.expressions.ExprCmdCooldownInfo$1
+ch/njol/yggdrasil/ClassResolver.java
+ ch.njol.yggdrasil.ClassResolver
+ch/njol/skript/log/FilteringLogHandler.java
+ ch.njol.skript.log.FilteringLogHandler
+ch/njol/skript/conditions/CondIsFlammable.java
+ ch.njol.skript.conditions.CondIsFlammable
+ch/njol/skript/expressions/arithmetic/ArithmeticChain.java
+ ch.njol.skript.expressions.arithmetic.ArithmeticChain
+ch/njol/skript/hooks/regions/expressions/ExprRegionsAt.java
+ ch.njol.skript.hooks.regions.expressions.ExprRegionsAt
+ch/njol/skript/package-info.java
+ ch.njol.skript.package-info
+ch/njol/util/LoggerFilter.java
+ ch.njol.util.LoggerFilter

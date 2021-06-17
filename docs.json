@@ -2861,7 +2861,7 @@ This may require that there is enough space above the given location and that th
     "pattern_end"
   ],
   "since" : "2.6-mark",
-  "description" : "Called whenever a <a href='classes.html#projectile'>projectile</a> is shot from a bow. Use the <a href='expressions.html#ExprShooter'>shooter expression</a> to get who shot the projectile.\\nThe bow used to shoot the arrow is the event-item, and the <a href='expressions.html#ExprUsedItem'>used item</a> expression returns the shot arrow.",
+  "description" : "Called whenever a <a href='classes.html#projectile'>projectile</a> is shot from a bow. Use the <a href='expressions.html#ExprShooter'>shooter expression</a> to get who shot the projectile.\\nThe bow used to shoot the arrow is the event-item, and the <a href='expressions.html#ExprUsedItem'>used item</a> expression returns the consumed arrow item.",
   "examples" : "on bow shoot:\\n    if event-item is a bow:\\n        if used item is an arrow:\\n            send \"You shot 1 of your %type of used item% arrows!\" to shooter"
 },
 {

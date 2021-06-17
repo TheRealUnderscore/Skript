@@ -1,0 +1,19 @@
+ch/njol/skript/aliases/AliasesTest.java
+ ch.njol.skript.aliases.AliasesTest
+ ch.njol.skript.aliases.AliasesTest$1
+ch/njol/skript/registrations/ClassesTest.java
+ ch.njol.skript.registrations.ClassesTest
+ch/njol/skript/util/UtilsTest.java
+ ch.njol.skript.util.UtilsTest
+ch/njol/skript/variables/FlatFileStorageTest.java
+ ch.njol.skript.variables.FlatFileStorageTest
+ch/njol/skript/localization/NounTest.java
+ ch.njol.skript.localization.NounTest
+ch/njol/skript/config/NodeTest.java
+ ch.njol.skript.config.NodeTest
+ch/njol/skript/SkriptTest.java
+ ch.njol.skript.SkriptTest
+ ch.njol.skript.SkriptTest$1
+ ch.njol.skript.SkriptTest$2
+ch/njol/skript/localization/RegexMessageTest.java
+ ch.njol.skript.localization.RegexMessageTest

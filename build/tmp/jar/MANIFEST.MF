@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Name: ch/njol/skript
+Automatic-Module-Name: ch.njol.skript
+Sealed: true
+

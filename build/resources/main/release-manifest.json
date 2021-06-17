@@ -1,0 +1,8 @@
+{
+	"id": "2.6-alpha1",
+	"date": "unknown",
+	"flavor": "selfbuilt-unknown",
+	"updateCheckerType": "ch.njol.skript.update.NoUpdateChecker",
+	"updateSource": "",
+	"downloadSource": null
+}

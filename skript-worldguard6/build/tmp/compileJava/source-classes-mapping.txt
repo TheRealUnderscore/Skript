@@ -1,0 +1,5 @@
+ch/njol/skript/module/worldguard6/WorldGuard6Hook.java
+ ch.njol.skript.module.worldguard6.WorldGuard6Hook
+ ch.njol.skript.module.worldguard6.WorldGuard6Hook$WorldGuardRegion
+ch/njol/skript/module/worldguard6/package-info.java
+ ch.njol.skript.module.worldguard6.package-info
